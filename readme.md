@@ -50,7 +50,7 @@ Please submit your emote designs at https://reddit.com/r/BetterGFMotes/. Chances
 
 You can fork this project and work on the code. If you want your changes to make it to the release versions of BetterGFMotes, please PM /u/HeyItsShuga on Reddit!
 
-###Moderators of Communities:
+###Moderators of Communities
 
 The more communities that are supported, the better BetterGFMotes becomes! Please contact /u/HeyItsShuga on Reddit with a link to your community as long as it is:
 
