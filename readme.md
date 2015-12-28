@@ -1,6 +1,6 @@
 #BetterGFMotes
 
-*We are on Reddit at /r/BetterGFMotes*
+*We are on Reddit at [/r/BetterGFMotes[(https://reddit.com/r/BetterGFMotes)*
 
 ##What is This?
 
@@ -10,7 +10,7 @@ BetterGFMotes is an Reddit emote script (similar to BetterPonyMotes) that allows
 
 BetterGFMotes does not use any backend (and not that much JavaScript). Instead, this uses (mostly) CSS to show the user the emotes.
 
-##Notice:
+##Notice
 
 This project is maintained by /u/HeyItsShuga (Shugabuga on GitHub), but includes image content from seperate designers. If you happen to be one of these deisgners and want your work removed, please let me know by PMing /u/HeyItsShuga on Reddit. 
 
@@ -50,14 +50,16 @@ Please submit your emote designs at https://reddit.com/r/BetterGFMotes/. Chances
 
 You can fork this project and work on the code. If you want your changes to make it to the release versions of BetterGFMotes, please PM /u/HeyItsShuga on Reddit!
 
+   - Our official jQuery theme can be found [here](http://j-co.ga/jquery/).
+
 ###Moderators of Communities
 
 The more communities that are supported, the better BetterGFMotes becomes! Please contact /u/HeyItsShuga on Reddit with a link to your community as long as it is:
 
-    1) (Mostly) Safe For Work (SFW): At the current moment, I will not accept rule-34 emotes.
+   1) (Mostly) Safe For Work (SFW): At the current moment, I will not accept rule-34 emotes.
+ 
+   2) Malware Free: I will not support the spreading of viruses, and will not put your content in if it could infect other's computers with adware, viruses, trojan horses, etc.
 
-    2) Malware Free: I will not support the spreading of viruses, and will not put your content in if it could infect other's computers with adware, viruses, trojan horses, etc.
+   3) Crime Free (Legal): Don't link to a community where laws are being broken.
 
-    3) Crime Free (Legal): Don't link to a community where laws are being broken.
-
-    4) Is **not** on the Dark Net
+   4) Is **not** on the Dark Net
