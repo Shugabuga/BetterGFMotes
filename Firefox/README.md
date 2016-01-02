@@ -18,6 +18,10 @@ This project is maintained by /u/HeyItsShuga (Shugabuga on GitHub), but includes
 
 The "Chrome" folder is for Google Chrome, and the "Firefox" folder is for Firefox. Install accordingly.
 
+- The `firefox.sh` file will build the Firefox version if you have XPInstall installed.
+
+- You can use developer features in Google Chrome to build the Chrome installation.
+
 ##Configuration
 
 -The `manual.css` folder is where the emote CSS is stored, as with the modifier CSS. This file will be applied to the browser.
