@@ -37,7 +37,13 @@ a[href|="#duckface"] {
     display: block;
     float: left
 }
-
+a[href|="#EMOTE"] {
+    background: url(imgur) no-repeat;
+    width: 0px;
+    height: 0px;
+    display: block;
+    float: left
+}
 a[href|="#friskyfresh"] {
     background: url(http://i.imgur.com/RvOkE0H.png) no-repeat;
     width: 42px;
@@ -551,7 +557,7 @@ a[href|="#puppetwendy"] {
     float: left
 }
 a[href|="#bipperpretty"] {
-    background: url(http://i.imgur.com/RBWoVWQ.png) no-repeat;
+    background: url(https://i.imgur.com/GIWDyQS.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
