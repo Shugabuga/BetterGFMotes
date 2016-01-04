@@ -1,7 +1,7 @@
 {
    "background": {
       "persistent": false,
-      "scripts": [ "code.js" ]
+      "scripts": [ "code.js", "lib/jquery.js", "lib/jquery-ui.js", "lib/datatables.min.js" ]
    },
    "browser_action": {
       "default_icon": "icon19.png",
@@ -11,7 +11,7 @@
    "content_scripts": [ {
       "css": [ "manual.css"],
       "js": [ "code.js" ],
-      "matches": [ "https://www.reddit.com/*" ]
+      "matches": [ "https://www.reddit.com/*", "https://voat.co/*" ]
    } ],
    "description": "Adds additional emotes to /r/gravityfalls and allows you to view them around Reddit.",
    "icons": {
@@ -21,6 +21,6 @@
    },
    "manifest_version": 2,
    "name": "BetterGFMotes",
-   "permissions": [ "tabs", "https://www.reddit.com/*" ],
-   "version": "0.3.5"
+   "permissions": [ "tabs", "https://www.reddit.com/*", "https://voat.co/*" ],
+   "version": "0.3.6"
 }

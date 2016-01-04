@@ -1,15 +1,55 @@
 
 <!doctype html>
 <html lang="en">
-
+    <! BetterGFMotes- Draggable UI BETA>
     <head>
+        <style>
+            #opener
+            {
+                font-family: Arial, Helvetica, sans-serif;
+                font-size:10px;
+            }
+        
+            </style>
         <meta charset="utf-8">
             <title>BetterGFMotes</title>
             <link rel="stylesheet" href="http://j-co.ga/jquery/jquery-ui.css">
-                <script src="lib/jquery.js"></script>
-                <script src="lib/jquery-ui.js"></script>
-                <link rel="stylesheet" type="text/css" href="lib/style.css"/>
-                                        <script src="lib/tableActivate.js"></script>
+                <script src="http://j-co.ga/jquery/external/jquery/jquery.js"></script>
+                <script src="http://j-co.ga/jquery/jquery-ui.js"></script>
+                <link rel="stylesheet" href="/resources/demos/style.css">
+                    <script>
+                        $(function() {
+                          $( "#dialog" ).dialog({
+                                                autoOpen: false,
+                                                height: 575,
+                                                width: 500,
+                                                show: {
+                                                effect: "fade",
+                                                duration: 500
+                                                },
+                                                hide: {
+                                                effect: "fade",
+                                                duration: 500
+                                                }
+                                                });
+                          
+                          $( "#opener" ).click(function() {
+                                               $( "#dialog" ).dialog( "open" );
+                                               });
+                          });
+                        </script>
+                    <script>
+                        function dippyfresh_add(text){
+                            var text = "[](#dippyfresh)";
+                            var TheTextBox = document.getElementById("text");
+                            TheTextBox.value = TheTextBox.value + text;
+                        }
+                    </script>
+                    <script>
+                        $(document).ready(function() {
+                                          $('#table').dataTable();
+                                          } );
+                        </script>
     </head>
     <body>
 
@@ -17,16 +57,29 @@
         <div id="there" title="BetterGFMotes">
             
             
-                    <script src="lib/jquery.js"></script>
-                    <link rel="stylesheet" href="lib/jquery-ui.css">
-                        <script src="lib/jquery-ui.js"></script>
+                    <script src="http://j-co.ga/jquery/external/jquery/jquery.js"></script>
+                    <link rel="stylesheet" href="http://j-co.ga/jquery/jquery-ui.css">
+                        <script src="http://j-co.ga/jquery/jquery-ui.js"></script>
                         <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/s/ju/dt-1.10.10/datatables.min.css"/>
                         
-                        <script type="text/javascript" src="lib/datatables.min.js"></script>
+                        <script type="text/javascript" src="https://cdn.datatables.net/s/ju/dt-1.10.10/datatables.min.js"></script>
                         
-
+                        <style type="text/css">
+                            .tg  {border-collapse:collapse;border-spacing:0;border-color:#bbb;}
+                            .tg td{font-family:Arial, sans-serif;font-size:14px;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#bbb;color:#594F4F;background-color:#E0FFEB;}
+                            .tg th{font-family:Arial, sans-serif;font-size:14px;font-weight:normal;padding:10px 5px;border-style:solid;border-width:0px;overflow:hidden;word-break:normal;border-color:#bbb;color:#493F3F;background-color:#9DE0AD;}
+                            .tg .tg-amwm{font-weight:bold;text-align:center;vertical-align:top}
+                            .tg .tg-yw4l{vertical-align:top}
+                            </style>
                         
-
+                <style>
+                    img {
+                        height: auto;
+                        width: auto;
+                        max-width: 100px;
+                        max-height: 100px;
+                    }
+                    </style>
                 
                 <table class="tg" id="table">
                         <thead>
