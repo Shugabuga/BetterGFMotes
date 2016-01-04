@@ -27,6 +27,13 @@ if (document.getElementById('extension-is-installed')) {
 
     <section class="main-content">
       
+      <! Test>
+      <button onclick="chrome.webstore.install()" id="install-button">Add to Chrome</button>
+<script>
+if (chrome.app.isInstalled) {
+  document.getElementById('install-button').style.display = 'none';
+}
+</script>
 
 <h1>
 <a id="bettergfmotes" class="anchor" href="#bettergfmotes" aria-hidden="true"><span class="octicon octicon-link"></span></a>BetterGFMotes</h1>
