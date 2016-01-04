@@ -2,6 +2,16 @@
 
 *We are on Reddit at [/r/BetterGFMotes](https://reddit.com/r/BetterGFMotes)*
 
+##Notes for Add-on Reviewers:
+Please keep the following in mind when reviewing:
+
+- We do use remote images (and some remote CSS) from Imgur, Reddit, a personal site, and more.
+- We use jQuery, jQuery UI, and DataTables (A jQuery add-on available at http://www.datatables.net/). This is to provide useful organization for our table viewable by clicking our icon. 
+- This add-on is for Reddit, but an account is not needed.
+- This program is open-source at https://github.com/Shugabuga/BetterGFMotes/
+
+Thanks for reviewing, and have a nice day!
+
 ##What is This?
 
 BetterGFMotes is an Reddit emote script (similar to BetterPonyMotes) that allows the user to see more emotes than usual on Reddit, all over Reddit.
