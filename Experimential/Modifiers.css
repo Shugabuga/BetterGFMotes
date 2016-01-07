@@ -100,15 +100,18 @@ a[href^="#"][href$="-shadow"],a[href^="#"][href$="-shadow"],body:lang(bc) a[href
     -webkit-filter: brightness(0%);
 }
 a[href|="#papyrus"],a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"] {
-    font-family: Papyrus, fantasy
+    font-family: Papyrus, fantasy!important;
+    color: black!important
 }
 
 a[href|="#sans"],a[href|="#sans"],body:lang(bc) a[href|="#sans"],body:lang(bc) a[href|="#sans"] {
-    font-family: "Comic Sans MS", fantasy
+    font-family: "Comic Sans MS", fantasy!important;
+    color: black!important
 }
 
 a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc) a[href|="#times"] {
-    font-family: "Times New Roman"
+    font-family: "Times New Roman"!important;
+    color: black!important
 }
 
 /* This part of CSS is from /r/Undertale */
