@@ -51,42 +51,62 @@ a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^=
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
     text-shadow: 0 0 20px black;
-    color: transparent;
+    color: black;
     background-color: black
 }
 a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
     text-shadow: 0 0 0px black;
-    color: white;
+    color: white
 }
 a[href|="#red"],a[href|="#red"],body:lang(bc) a[href|="#red"],body:lang(bc) a[href|="#red"] {
-    color: red
+    color: red;
+    cursor: default;
+
 }
 a[href|="#blue"],a[href|="#blue"],body:lang(bc) a[href|="#blue"],body:lang(bc) a[href|="#blue"] {
-    color: blue
+    color: blue;
+    cursor: default;
+
 }
 a[href|="#green"],a[href|="#green"],body:lang(bc) a[href|="#green"],body:lang(bc) a[href|="#green"] {
-    color: green
+    color: green;
+    cursor: default;
+
 }
 a[href|="#yellow"],a[href|="#yellow"],body:lang(bc) a[href|="#yellow"],body:lang(bc) a[href|="#yellow"] {
-    color: yellow
+    color: yellow;
+    cursor: default;
+
 }
 a[href|="#purple"],a[href|="#purple"],body:lang(bc) a[href|="#purple"],body:lang(bc) a[href|="#purple"] {
-    color: purple
+    color: purple;
+    cursor: default;
+
 }
 a[href|="#lime"],a[href|="#lime"],body:lang(bc) a[href|="#lime"],body:lang(bc) a[href|="#lime"] {
-    color: lime}
+    color: lime;
+    cursor: default;
+}
 
 a[href|="#pink"],a[href|="#pink"],body:lang(bc) a[href|="#pink"],body:lang(bc) a[href|="#pink"] {
-    color: pink}
+    color: pink;
+    cursor: default;
+}
 
 a[href|="#orange"],a[href|="#orange"],body:lang(bc) a[href|="#orange"],body:lang(bc) a[href|="#orange"] {
-    color: orange}
+    color: orange;
+    cursor: default;
+}
 
 a[href|="#gray"],a[href|="#gray"],body:lang(bc) a[href|="#gray"],body:lang(bc) a[href|="#gray"] {
-    color: gray}
+    color: gray;
+    cursor: default;
+}
 
 a[href|="#cyan"],a[href|="#cyan"],body:lang(bc) a[href|="#cyan"],body:lang(bc) a[href|="#cyan"] {
-    color: cyan}
+    color: cyan;
+    cursor: default;
+}
 
 a[href^="#"][href$="-i"],a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"] {
     -webkit-filter: hue-rotate(180deg)!important;
@@ -101,17 +121,22 @@ a[href^="#"][href$="-shadow"],a[href^="#"][href$="-shadow"],body:lang(bc) a[href
 }
 a[href|="#papyrus"],a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"] {
     font-family: Papyrus, fantasy!important;
-    color: black!important
+    color: black!important;
+    cursor: default;
+
 }
 
 a[href|="#sans"],a[href|="#sans"],body:lang(bc) a[href|="#sans"],body:lang(bc) a[href|="#sans"] {
     font-family: "Comic Sans MS", fantasy!important;
-    color: black!important
+    color: black!important;
+    cursor: default;
+
 }
 
 a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc) a[href|="#times"] {
     font-family: "Times New Roman"!important;
-    color: black!important
+    color: black!important;
+    cursor: default;
 }
 
 /* This part of CSS is from /r/Undertale */
