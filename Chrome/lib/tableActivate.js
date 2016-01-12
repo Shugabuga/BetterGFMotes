@@ -1,7 +1,5 @@
 $(document).ready(function() {
-                  $('#table').dataTable();
+                  $('#table').dataTable( { 
+     "paging": false				  
+				  });
                   } );
-                  
-$('#table').dataTable( {
-    "paging": false
-} );
