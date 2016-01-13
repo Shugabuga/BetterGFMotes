@@ -21,6 +21,6 @@
    },
    "manifest_version": 2,
    "name": "BetterGFMotes",
-   "permissions": [ "tabs", "https://www.reddit.com/*", "https://voat.co/*" ],
+   "permissions": [ "tabs", "https://reddit.com/*", "https://np.reddit.com/*", "https://voat.co/*" ],
    "version": "0.4.1"
 }
