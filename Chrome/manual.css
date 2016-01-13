@@ -698,15 +698,7 @@ transform:translate(0px,-2px);
 -webkit-transform:translate(0px,-2px);
 }
 
-.footer-parent:after {
-display:block;
-font-weight:400;
-font-size:10px;
-color:green;
-padding-left:250px;
-padding-right:250px;
-content:"    BetterGFMotes is currently enabled!    ";
-}
+
 
 a[href|="#mabel"],a[href|="#rmabel"],a[href|="#soos"],a[href|="#rsoos"],a[href|="#bill"],a[href|="#rbill"] {
 background-position:0 0!important;
@@ -717,31 +709,6 @@ background-position:0 -70px!important;
 }
 
 
-a[href|="#sp"],a[href|="#sp"],body:lang(bc) a[href|="#sp"],body:lang(bc) a[href|="#sp"] {
-display:inline-block;
-padding-right:100%;
-}
-
-a[href^="#"][href$="-in"],a[href^="#"][href$="-inp"],body:lang(bc) a[href^="#"][href$="-in"],body:lang(bc) a[href^="#"][href$="-inp"] {
-float:none!important;
-display:inline-block!important;
-}
-a[href^="#"][href$="-blur"],a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"] {
-    -webkit-filter: blur(5px)!important;
-}
-
-a[href^="#"][href$="-r"],a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"] {
-    transform:rotateY(180deg)!important;
-}
-a[href^="#"][href$="-invert"],a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"] {
-    -webkit-filter: invert(100%)!important;
-}
-a[href^="#"][href$="-bw"],a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"] {
-    -webkit-filter: grayscale(1)!important;
-}
-a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"] {
-    -webkit-filter: sepia(1)!important;
-}
 
 
 

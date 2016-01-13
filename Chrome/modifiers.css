@@ -13,6 +13,16 @@
  */
 
 
+.footer-parent:after {
+display:block;
+font-weight:400;
+font-size:10px;
+color:green;
+padding-left:250px;
+padding-right:250px;
+content:"    BetterGFMotes is currently enabled!    ";
+}
+
 a[href|="#sp"],a[href|="#sp"],body:lang(bc) a[href|="#sp"],body:lang(bc) a[href|="#sp"] {
     display:inline-block;
     padding-right:100%;

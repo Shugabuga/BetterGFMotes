@@ -36,3 +36,15 @@ pageMod.PageMod({
   include: "*.reddit.com",
   contentStyleFile: require("sdk/self").data.url("manual.css")
 });
+pageMod.PageMod({
+  include: "*.reddit.com",
+  contentStyleFile: require("sdk/self").data.url("modifiers.css")
+});
+pageMod.PageMod({
+  include: "*.voat.co",
+  contentStyleFile: require("sdk/self").data.url("manual.css")
+});
+pageMod.PageMod({
+  include: "*.voat.co",
+  contentStyleFile: require("sdk/self").data.url("modifiers.css")
+});
