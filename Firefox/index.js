@@ -34,7 +34,7 @@ function handleHide() {
 
 pageMod.PageMod({
   include: "*.reddit.com",
-  contentStyleFile: require("sdk/self").data.url("manual.css")
+  contentStyleFile: require("sdk/self").data.url("emotes.css")
 });
 pageMod.PageMod({
   include: "*.reddit.com",
@@ -42,7 +42,7 @@ pageMod.PageMod({
 });
 pageMod.PageMod({
   include: "*.voat.co",
-  contentStyleFile: require("sdk/self").data.url("manual.css")
+  contentStyleFile: require("sdk/self").data.url("emotes.css")
 });
 pageMod.PageMod({
   include: "*.voat.co",
