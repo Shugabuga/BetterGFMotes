@@ -708,51 +708,14 @@ padding-right:250px;
 content:"    BetterGFMotes is currently enabled!    ";
 }
 
-.thumbnail.nsfw,a[href|="#mabel"],a[href|="#rmabel"],a[href|="#soos"],a[href|="#rsoos"],a[href|="#bill"],a[href|="#rbill"] {
+a[href|="#mabel"],a[href|="#rmabel"],a[href|="#soos"],a[href|="#rsoos"],a[href|="#bill"],a[href|="#rbill"] {
 background-position:0 0!important;
 }
 
-.thumbnail.default,a[href|="#grumpymabel"],a[href|="#rgrumpymabel"],a[href|="#wendyread"],a[href|="#rwendyread"],a[href|="#didyamissme"],a[href|="#rdidyamissme"] {
+a[href|="#grumpymabel"],a[href|="#rgrumpymabel"],a[href|="#wendyread"],a[href|="#rwendyread"],a[href|="#didyamissme"],a[href|="#rdidyamissme"] {
 background-position:0 -70px!important;
 }
 
-.sidecontentbox .voteWeight,.sidecontentbox .userTagLink,body:lang(bc) .sidecontentbox .voteWeight,body:lang(bc) .sidecontentbox .userTagLink {
-display:none!important;
-}
-
-.sidecontentbox h1,body:lang(bc) .sidecontentbox h1 {
-text-align:left;
-}
-
-.sidecontentbox a.helplink,body:lang(bc) .sidecontentbox a.helplink {
-color:#fff7fd!important;
-font-size:0!important;
-content:"";
-}
-
-.sidecontentbox a.helplink:after,body:lang(bc) .sidecontentbox a.helplink:after {
-color:#369!important;
-font-size:11px!important;
-content:"message the moderators";
-}
-
-.bottom,.bottom .age {
-font-size:0!important;
-}
-
-.submit_text,body:lang(bc) .submit_text {
-max-height:1000px;
-}
-
-.tabmenu.formtab a,body:lang(bc) .tabmenu.formtab a {
-background-color:#a7c099;
-border:none;
-color:#FFF;
-}
-
-ul.tabmenu.formtab,body:lang(bc) ul.tabmenu.formtab {
-margin-left:0;
-}
 
 a[href|="#sp"],a[href|="#sp"],body:lang(bc) a[href|="#sp"],body:lang(bc) a[href|="#sp"] {
 display:inline-block;
@@ -780,58 +743,7 @@ a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^=
     -webkit-filter: sepia(1)!important;
 }
 
-body:lang(bc) #header-bottom-right,body:lang(bc) .md code,body:lang(bc) .link.odd {
-background-color:#454545;
-}
 
-body:lang(bc) #header-bottom-right a,body:lang(bc) .thing .title {
-color:#F5F5F5;
-}
-
-body:lang(bc) body,body:lang(bc) {
-background-color:#141414;
-color:#CFCFCF;
-}
-
-body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-background-color:#fff!important;
-}
-
-body:lang(bc) .sitetable .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment .comment .comment .comment .comment,body:lang(bc) .sitetable .comment .comment .comment .comment .comment .comment .comment .comment.comment.comment,body:lang(bc) .res-commentBoxes div.comment .comment .comment .comment .comment .comment .comment .comment .comment .comment {
-background-color:#2C2C2C!important;
-}
-
-body:lang(bc) .reported-stamp,body:lang(bc) .report-reason,body:lang(bc) .infobar.welcome {
-color:#000;
-}
-
-.side .md table:nth-of-type(1) tr:nth-of-type(odd) td+td:after,.side .md table:nth-of-type(4) tr:nth-of-type(odd) td+td:after {
-background-image:url(https://b.thumbs.redditmedia.com/6w8wB1kC4kQia2WYlAZB2F6oR0TAHu6AElqkhKb3-BU.png);
-}
-
-.side .md table th:nth-of-type(2):after,.side .md table tbody tr:nth-of-type(1) td:nth-of-type(1):after {
-content:"0";
-}
-
-.side .md table th:nth-of-type(3):after,.side .md table tbody tr:nth-of-type(3) td:nth-of-type(1):after {
-content:"1";
-}
-
-.side .md table th:nth-of-type(4):after,.side .md table tbody tr:nth-of-type(5) td:nth-of-type(1):after {
-content:"2";
-}
-
-.side .md table th:nth-of-type(5):after,.side .md table tbody tr:nth-of-type(7) td:nth-of-type(1):after {
-content:"3";
-}
-
-.side .md h1:nth-of-type(1):hover ~ table:nth-of-type(1),.side .md table:nth-of-type(1):hover,.side .md h1:nth-of-type(2):hover ~ table:nth-of-type(2),.side .md table:nth-of-type(2):hover,.side .md h1:nth-of-type(3):hover ~ table:nth-of-type(3),.side .md table:nth-of-type(3):hover,.side .md h1:nth-of-type(4):hover ~ table:nth-of-type(4),.side .md table:nth-of-type(4):hover {
-display:table;
-}
-
-.side .md table:nth-of-type(1) tr:nth-of-type(20) td:nth-of-type(3):after,.side .md table:nth-of-type(1) tr:nth-of-type(20) td:nth-of-type(4):after,.side .md table:nth-of-type(1) tr:nth-of-type(20) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(8) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(8) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(10) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(10) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(10) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(10) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(12) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(12) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(12) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(12) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(14) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(14) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(14) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(14) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(16) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(16) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(16) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(16) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(18) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(18) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(18) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(18) td:nth-of-type(5):after,.side .md table:nth-of-type(3) tr:nth-of-type(20) td:nth-of-type(2):after,.side .md table:nth-of-type(3) tr:nth-of-type(20) td:nth-of-type(3):after,.side .md table:nth-of-type(3) tr:nth-of-type(20) td:nth-of-type(4):after,.side .md table:nth-of-type(3) tr:nth-of-type(20) td:nth-of-type(5):after {
-content:"";
-}
 
 a[href|="#mabelwat"],a[href|="#rmabelwat"],a[href|="#toomuch"],a[href|="#rtoomuch"],a[href|="#angrybill"],a[href|="#rangrybill"] {
 background-position:-70px 0!important;
