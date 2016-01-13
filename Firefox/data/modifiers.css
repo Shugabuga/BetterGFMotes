@@ -61,60 +61,60 @@ a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^=
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
     text-shadow: 0 0 20px black;
-    color: black;
+    color: black!important;
     background-color: black
 }
 a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
-    text-shadow: 0 0 0px black;
-    color: white
+    text-shadow: 0 0 0px black!important;
+    color: white!important
 }
 a[href|="#red"],a[href|="#red"],body:lang(bc) a[href|="#red"],body:lang(bc) a[href|="#red"] {
-    color: red;
+    color: red!important;
     cursor: default;
 
 }
 a[href|="#blue"],a[href|="#blue"],body:lang(bc) a[href|="#blue"],body:lang(bc) a[href|="#blue"] {
-    color: blue;
+    color: blue!important;
     cursor: default;
 
 }
 a[href|="#green"],a[href|="#green"],body:lang(bc) a[href|="#green"],body:lang(bc) a[href|="#green"] {
-    color: green;
+    color: green!important;
     cursor: default;
 
 }
 a[href|="#yellow"],a[href|="#yellow"],body:lang(bc) a[href|="#yellow"],body:lang(bc) a[href|="#yellow"] {
-    color: yellow;
+    color: yellow!important;
     cursor: default;
 
 }
 a[href|="#purple"],a[href|="#purple"],body:lang(bc) a[href|="#purple"],body:lang(bc) a[href|="#purple"] {
-    color: purple;
+    color: purple!important;
     cursor: default;
 
 }
 a[href|="#lime"],a[href|="#lime"],body:lang(bc) a[href|="#lime"],body:lang(bc) a[href|="#lime"] {
-    color: lime;
+    color: lime!important;
     cursor: default;
 }
 
 a[href|="#pink"],a[href|="#pink"],body:lang(bc) a[href|="#pink"],body:lang(bc) a[href|="#pink"] {
-    color: pink;
+    color: pink!important;
     cursor: default;
 }
 
 a[href|="#orange"],a[href|="#orange"],body:lang(bc) a[href|="#orange"],body:lang(bc) a[href|="#orange"] {
-    color: orange;
+    color: orange!important;
     cursor: default;
 }
 
 a[href|="#gray"],a[href|="#gray"],body:lang(bc) a[href|="#gray"],body:lang(bc) a[href|="#gray"] {
-    color: gray;
+    color: gray!important;
     cursor: default;
 }
 
 a[href|="#cyan"],a[href|="#cyan"],body:lang(bc) a[href|="#cyan"],body:lang(bc) a[href|="#cyan"] {
-    color: cyan;
+    color: cyan!important;
     cursor: default;
 }
 

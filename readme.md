@@ -24,7 +24,9 @@ The "Chrome" folder is for Google Chrome, and the "Firefox" folder is for Firefo
 
 ##Configuration
 
--The `manual.css` folder is where the emote CSS is stored, as with the modifier CSS. This file will be applied to the browser.
+-The `emotes.css` folder is where the emote CSS is stored, as with the modifier CSS. This file will be applied to the browser.
+
+-The `modifiers.css` folder is where the emote modifiers (like -sepia) are stored.
 
 - The `popup.html` is the list of emotes that appear when clicking the plug-in's icon. It is an HTML file.
 
