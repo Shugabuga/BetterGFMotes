@@ -10,6 +10,9 @@
  CSS
  }
  
+NOTE: use *BOTH* -webkit-filter for Chrome and filter for Firefox.
+
+
  */
 
 
@@ -44,6 +47,7 @@ a[href^="#"][href$="-in"],a[href^="#"][href$="-inp"],body:lang(bc) a[href^="#"][
 }
 a[href^="#"][href$="-blur"],a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"] {
     -webkit-filter: blur(5px)!important;
+    filter: blur(5px)!important;
 }
 
 a[href^="#"][href$="-r"],a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"] {
@@ -51,12 +55,15 @@ a[href^="#"][href$="-r"],a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][hre
 }
 a[href^="#"][href$="-invert"],a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"] {
     -webkit-filter: invert(100%)!important;
+    filter: invert(100%)!important;
 }
 a[href^="#"][href$="-bw"],a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"] {
     -webkit-filter: grayscale(1)!important;
+    filter: grayscale(100%)!important;
 }
 a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"] {
     -webkit-filter: sepia(1)!important;
+    filter: sepia(1)!important;
 }
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
@@ -120,6 +127,7 @@ a[href|="#cyan"],a[href|="#cyan"],body:lang(bc) a[href|="#cyan"],body:lang(bc) a
 
 a[href^="#"][href$="-i"],a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"] {
     -webkit-filter: hue-rotate(180deg)!important;
+    filter: hue-rotate(180deg)!important;
 }
 a[href^="#"][href$="-up"],a[href^="#"][href$="-up"],body:lang(bc) a[href^="#"][href$="-up"],body:lang(bc) a[href^="#"][href$="-up"] {
     transform:rotateX(180deg)!important;
@@ -149,7 +157,6 @@ a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc
     cursor: default;
 }
 
-/* This part of CSS is from /r/Undertale */
 
 @-webkit-keyframes rainbow {
     0% { color: #F00 }
@@ -174,5 +181,3 @@ a[href$="#rainbow"] {
     -webkit-animation: rainbow 5s linear 0s infinite;
     animation: rainbow 5s linear 0s infinite;
 }
-
-/* End Undertale CSS for #rainbow */
