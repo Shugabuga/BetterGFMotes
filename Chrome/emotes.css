@@ -291,6 +291,13 @@ a[href|="#manatour"] {
     display: block;
     float: left
 }
+a[href|="#manataur"] {
+    background: url(http://i.imgur.com/tXPju5w.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
 a[href|="#mermando"] {
     background: url(http://i.imgur.com/rvYbJRu.png) no-repeat;
     width: 70px;
