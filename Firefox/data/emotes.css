@@ -1,15 +1,9 @@
-/* BetterGFMotes v0.3.5 Emote CSS
+/* BetterGFMotes v0.5.0 Emote CSS
 
 Changelog:
 
-- Added new emotes
-    - We added some new animated and static emotes!
-- New modifiers!
-    - Reverse emote (-r)
-    - Invert emote (-invert)
-    - Grayscale (-bw)
-    - Sepia (-sepia)
-    - Blur (-blur)
+- No unencyrpted traffic is being used for your security!
+    - We also have our own server to store images of emotes protected by CloudFare.
 
 */
 
@@ -17,70 +11,64 @@ Changelog:
 /* The emotes below are exclusive to BetterGFMotes. */
 
 a[href|="#88freshes"] {
-    background: url(http://i.imgur.com/YvUzdMR.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/88freshes.png) no-repeat;
     width: 100px;
     height: 100px;
     display: block;
     float: left
 }
 a[href|="#dippymad"] {
-    background: url(http://i.imgur.com/qZkYpR0.gif) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/dippymad.gif) no-repeat;
     width: 152px;
     height: 85px;
     display: block;
     float: left
 }
 a[href|="#duckface"] {
-    background: url(http://i.imgur.com/WibIRS8.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/duckface.png) no-repeat;
     width: 77px;
     height: 70px;
     display: block;
     float: left
 }
-a[href|="#EMOTE"] {
-    background: url(imgur) no-repeat;
-    width: 0px;
-    height: 0px;
-    display: block;
-    float: left
-}
+
 a[href|="#friskyfresh"] {
-    background: url(http://i.imgur.com/RvOkE0H.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/friskyfresh.png) no-repeat;
     width: 42px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#mabelcute"] {
-    background: url(http://i.imgur.com/tnqoZ1f.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mabelcute.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#powerofmabel"] {
-    background: url(http://i.imgur.com/ljfNk3H.gif) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/powerofmabel.gif) no-repeat;
     width: 153px;
     height: 85px;
     display: block;
     float: left
 }
 a[href|="#rippyfresh"] {
-    background: url(http://i.imgur.com/x2XdJcR.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/rippyfresh.png) no-repeat;
     width: 39px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#theend"] {
-    background: url(http://i.imgur.com/qfK0o0m.gif) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/theend.gif) no-repeat;
     width: 99px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#unseenjoaje"] {
-    background: url(http://i.imgur.com/DOV0MVh.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/unseenjoaje.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
@@ -88,77 +76,77 @@ a[href|="#unseenjoaje"] {
 }
 
 a[href|="#flipadip"] {
-    background: url(http://i66.tinypic.com/k97vk8.gif) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/flipadip.gif) no-repeat;
     width: 500px;
     height: 281px;
     display: block;
     float: left
 }
 a[href|="#stantounge"] {
-    background: url(https://i.imgur.com/rXQmtgk.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/stantounge.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#billdin"] {
-    background: url(https://i.imgur.com/FAyBz1C.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/billdin.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#summerween"] {
-    background: url(https://i.imgur.com/aoWizLn.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/summerween.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#handwitch"] {
-    background: url(https://i.imgur.com/nM8MRiq.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/handwitch.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#stangrin"] {
-    background: url(http://i.imgur.com/7R6UkHX.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/stangrin.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#umm"] {
-    background: url(http://i.imgur.com/OatJqBp.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/umm.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#stansquint"] {
-    background: url(http://i.imgur.com/JbYxteF.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/stansquint.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#wink"] {
-    background: url(https://i.imgur.com/G7HJvLc.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/wink.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#fordshades"] {
-    background: url(https://i.imgur.com/RcdPr3I.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/fordshades.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#soostounge"] {
-    background: url(https://i.imgur.com/WrIVsVD.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/soostounge.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
@@ -166,217 +154,217 @@ a[href|="#soostounge"] {
 }
 
 a[href|="#alexscared"] {
-    background: url(http://i.imgur.com/zSRGszy.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/alexscared.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#bippersmile"] {
-    background: url(http://i.imgur.com/OOqRqkd.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/dippersmile.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#blindivan"] {
-    background: url(http://i.imgur.com/w5ZBoen.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/blindivan.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#bord"] {
-    background: url(http://i.imgur.com/xhoGL8x.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/bord.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#butter"] {
-    background: url(http://i.imgur.com/MYTkkdX.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/butter.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#buttivan"] {
-    background: url(http://i.imgur.com/3nzgFsC.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/buttivan.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#candle"] {
-    background: url(http://i.imgur.com/lpJjub5.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/candle.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#creepygideon"] {
-    background: url(http://i.imgur.com/WVGM59A.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/creepygideon.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#dipper"] {
-    background: url(http://i.imgur.com/9j78ZvI.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/dipper.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#ducktwin"] {
-    background: url(http://i.imgur.com/SkmZeMv.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/ducktwin.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#gideonbot"] {
-    background: url(http://i.imgur.com/TJXmCjD.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/gideonbot.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#gideongrin"] {
-    background: url(http://i.imgur.com/QQNcdzq.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/gideongrin.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#gorney"] {
-    background: url(http://i.imgur.com/Uq7HBrh.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/gorney.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#journal1"] {
-    background: url(http://i.imgur.com/AncehkT.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/journal1.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#journal3"] {
-    background: url(http://i.imgur.com/nU4KdoM.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/journal3.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#journal2"] {
-    background: url(http://i.imgur.com/vQXb15u.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/journal2.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#mabelopen"] {
-    background: url(http://i.imgur.com/LHyOelL.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mabelopen.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#manatour"] {
-    background: url(http://i.imgur.com/tXPju5w.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/manataur.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#manataur"] {
-    background: url(http://i.imgur.com/tXPju5w.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/manataur.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#mermando"] {
-    background: url(http://i.imgur.com/rvYbJRu.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mermando.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#mabelsweater"] {
-    background: url(http://i.imgur.com/uNIjQrm.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mabelsweater.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#shapeshifter"] {
-    background: url(http://i.imgur.com/t601RdM.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/shapeshifter.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#smiledip"] {
-    background: url(http://i.imgur.com/CXSQ0Wc.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/smiledip.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#stanrun"] {
-    background: url(http://i.imgur.com/zV3ZJtq.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/stanrun.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#trickster"] {
-    background: url(http://i.imgur.com/Gnqwrds.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/trickster.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#sweatertown"] {
-    background: url(http://i.imgur.com/TmYCGsU.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/sweatertown.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#tyrone"] {
-    background: url(http://i.imgur.com/HvmoyTP.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/tyrone.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#ugh"] {
-    background: url(http://i.imgur.com/ZzKf2cL.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/ugh.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#bettergfmotesverify"] {
-    background: url(http://i.imgur.com/XS3Dpqi.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/bettergfmotesverify.png) no-repeat;
     width: 200px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#dipperpony"] {
-    background: url(http://i.imgur.com/nG2LZVh.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/dipperpony.png) no-repeat;
     width: 100px;
     height: 115px;
     display: block;
     float: left
 }
 a[href|="#mabelpony"] {
-    background: url(http://i.imgur.com/NICrZ3Y.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mabelpony.png) no-repeat;
     width: 100px;
     height: 73px;
     display: block;
@@ -385,56 +373,56 @@ a[href|="#mabelpony"] {
 
 
 a[href|="#chillpill"] {
-    background: url(https://b.thumbs.redditmedia.com/u0Lo5qazTib5qqUUJM9oqRrLUyT5wuV96jLmJEK5cww.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/chillpill.png) no-repeat;
     width: 100px;
     height: 79px;
     display: block;
     float: left
 }
 a[href|="#cblater"] {
-    background: url(https://a.thumbs.redditmedia.com/l81WYwuNBQYK7dhUITMJ_LHWgmrPUz20L4Nzc7opV-4.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/cblater.png) no-repeat;
     width: 70px;
     height: 66px;
     display: block;
     float: left
 }
 a[href|="#alex"] {
-    background: url(https://b.thumbs.redditmedia.com/Z3yk5OG9HuYLw7iQhHm_L9ZMyW4p0-wQ29PuIfSyIsE.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/alex.png) no-repeat;
     width: 70px;
     height: 67px;
     display: block;
     float: left
 }
 a[href|="#alexbill"] {
-    background: url(https://b.thumbs.redditmedia.com/5fD6vrw7gLyY76TiA3b0BXCKUsQllGjVVHQwRGPN1TE.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/alexbill.png) no-repeat;
     width: 70px;
     height: 67px;
     display: block;
     float: left
 }
 a[href|="#woodip"] {
-    background: url(https://b.thumbs.redditmedia.com/e8YTAd0UfYnxnQ_umd6bLsny3KmrrrPyDkAE7gs5WKU.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/woodip.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#soosamaze"] {
-    background: url(https://a.thumbs.redditmedia.com/QyWjP0TJY0kUd_1z8D2rY3FeuRWX-Hli0H0r-38MiS4.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/soosamaze.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#ieatkids"] {
-    background: url(https://b.thumbs.redditmedia.com/B7jPsq5iiFi1WHCYWOEhzMDo2sKpKf_2b7owWkkC0Ls.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/ieatkids.png) no-repeat;
     width: 70px;
     height: 77px;
     display: block;
     float: left
 }
 a[href|="#mabelhallucination"] {
-    background: url(https://a.thumbs.redditmedia.com/6H3OVU5gouvj36nHx4HZZ_K4vpw7CAPS2nL6wsa5SQ0.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mabelhallucination.png) no-repeat;
     width: 500px;
     height: 282px;
     display: block;
@@ -445,154 +433,154 @@ a[href|="#mabelhallucination"] {
 
 
 a[href|="#pacifisad"] {
-    background: url(http://i.imgur.com/S9PIpIB.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/pacifisad.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#pacifimom"] {
-    background: url(http://i.imgur.com/lvqyR7d.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/pacifimom.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#mayor"] {
-    background: url(http://i.imgur.com/QUqRr9w.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/mayor.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#danconfused"] {
-    background: url(http://i.imgur.com/E42xbNG.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/danconfused.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#lovegod"] {
-    background: url(http://i.imgur.com/Ix80Z72.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/lovegod.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#screamhead"] {
-    background: url(http://i.imgur.com/WAq1dPF.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/screamhead.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#adorablles"] {
-    background: url(http://i.imgur.com/LjoMRLq.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/adorablles.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#soosfaint"] {
-    background: url(http://i.imgur.com/8XLWtR4.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/soosfaint.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#somethingbig"] {
-    background: url(http://i.imgur.com/Rrx6G00.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/somethingbig.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#ladysoosan"] {
-    background: url(http://i.imgur.com/Pq1pY5E.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/ladysoosan.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#beastoneeye"] {
-    background: url(http://i.imgur.com/t4UN2Tw.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/beastoneeye.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#eatable"] {
-    background: url(http://b.thumbs.redditmedia.com/dIhA8k3Z4RpRRsGc9yZLkA3bwYxiF4-5fbP1WA110Hc.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/eatable.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#crystable"] {
-    background: url(http://i.imgur.com/ougzBam.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/crystable.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#government"] {
-    background: url(http://i.imgur.com/eTGSzjN.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/government.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#youngblubs"] {
-    background: url(http://i.imgur.com/6BtHeYQ.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/youngblubs.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#puppetsoos"] {
-    background: url(http://i.imgur.com/CYgNnRT.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/puppetsoos.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#puppetwendy"] {
-    background: url(http://i.imgur.com/oVO1pFD.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/puppetwendy.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#bipperpretty"] {
-    background: url(https://i.imgur.com/GIWDyQS.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/bipperpretty.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#alexclown"] {
-    background: url(http://i.imgur.com/RBWoVWQ.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/alexclown.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#gamegirl"] {
-    background: url(http://i.imgur.com/KjJqA5m.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/gamegirl.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#heygurl"] {
-    background: url(http://i.imgur.com/RzGKqo2.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/heygurl.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
     float: left
 }
 a[href|="#timebaby"] {
-    background: url(http://i.imgur.com/glRJzmc.png) no-repeat;
+    background: url(https://j-co.ga/BetterGFMotesDB/timebaby.png) no-repeat;
     width: 70px;
     height: 70px;
     display: block;
