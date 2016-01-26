@@ -182,7 +182,7 @@ a[href$="#rainbow"] {
     animation: rainbow 5s linear 0s infinite;
 }
 
-/* Site-wide spoiler system.
+/* Site-wide spoiler system. Does not work with sites using the NSFW tag for spoilers (yet!)
 
 Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will be blurred instead of invisible. Hovering over the icon will reveal it.
 */
@@ -216,8 +216,6 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
     -webkit-filter: blur(0px)!important;
     filter: blur(0px)!important;
 }
-/**/
-/* Site-wide spoiler system */
 
 .linkflair-spoilers a.title {
    color: transparent!important;
@@ -248,8 +246,6 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
     -webkit-filter: blur(0px)!important;
     filter: blur(0px)!important;
 }
-/**/
-/* Site-wide spoiler system */
 
 .linkflair-Spoiler a.title {
    color: transparent!important;
@@ -280,8 +276,6 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
     -webkit-filter: blur(0px)!important;
     filter: blur(0px)!important;
 }
-/**/
-/* Site-wide spoiler system */
 
 .linkflair-Spoilers a.title {
    color: transparent!important;
@@ -312,4 +306,4 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
     -webkit-filter: blur(0px)!important;
     filter: blur(0px)!important;
 }
-/**/
+/* End Spoiler System */
