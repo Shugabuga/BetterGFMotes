@@ -187,18 +187,31 @@ a[href$="#rainbow"] {
 Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will be blurred instead of invisible. Hovering over the icon will reveal it.
 */
 
+.linkflair-spoiler .linkflairlabel {
+    background: transparent;
+    border-color: teal;
+    color: teal;
+    text-transform: uppercase;
+}
+
+.linkflair-spoiler a.title:before {
+    color: teal!important;
+    text-shadow: 0 0 0px teal!important;
+    content: "Spoiler: ";
+}
+
 .linkflair-spoiler a.title {
    color: transparent!important;
-   text-shadow: 0 0 7px red!important;
+   text-shadow: 0 0 7px teal!important;
 }
 .linkflair-spoiler a.title:visited {
     color: red!important;
-    text-shadow: 0 0 0px red!important;
+    text-shadow: 0 0 0px teal!important;
     visibility: visible!important;
 }
 .linkflair-spoiler a.title:hover {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
+    color: teal!important;
+    text-shadow: 0 0 0px teal!important;
     visibility: visible!important;
 }
 .linkflair-spoiler .thumbnail {
@@ -209,7 +222,7 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
 .linkflair-spoiler:hover {
     -webkit-filter: blur(0px)!important;
     filter: blur(0px)!important;
-    text-shadow: 0 0 0px red;
+    text-shadow: 0 0 0px teal;
     visibility: visible!important;
 }
 .linkflair-spoiler .thumbnail:hover {
@@ -217,93 +230,4 @@ Also, if you are using the spoiler tag fron /r/SpoilerCSSTesting, the icon will 
     filter: blur(0px)!important;
 }
 
-.linkflair-spoilers a.title {
-   color: transparent!important;
-   text-shadow: 0 0 7px red!important;
-}
-.linkflair-spoilers a.title:visited {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-spoilers a.title:hover {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-spoilers .thumbnail {
-    -webkit-filter: blur(5px)!important;
-    filter: blur(5px)!important;
-    visibility: visible!important;
-}
-.linkflair-spoilers:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-    text-shadow: 0 0 0px red;
-    visibility: visible!important;
-}
-.linkflair-spoilers .thumbnail:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-}
-
-.linkflair-Spoiler a.title {
-   color: transparent!important;
-   text-shadow: 0 0 7px red!important;
-}
-.linkflair-Spoiler a.title:visited {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-Spoiler a.title:hover {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-Spoiler .thumbnail {
-    -webkit-filter: blur(5px)!important;
-    filter: blur(5px)!important;
-    visibility: visible!important;
-}
-.linkflair-Spoiler:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-    text-shadow: 0 0 0px red;
-    visibility: visible!important;
-}
-.linkflair-Spoiler .thumbnail:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-}
-
-.linkflair-Spoilers a.title {
-   color: transparent!important;
-   text-shadow: 0 0 7px red!important;
-}
-.linkflair-Spoilers a.title:visited {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-Spoilers a.title:hover {
-    color: red!important;
-    text-shadow: 0 0 0px red!important;
-    visibility: visible!important;
-}
-.linkflair-Spoilers .thumbnail {
-    -webkit-filter: blur(5px)!important;
-    filter: blur(5px)!important;
-    visibility: visible!important;
-}
-.linkflair-Spoilers:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-    text-shadow: 0 0 0px red;
-    visibility: visible!important;
-}
-.linkflair-Spoilers .thumbnail:hover {
-    -webkit-filter: blur(0px)!important;
-    filter: blur(0px)!important;
-}
 /* End Spoiler System */
