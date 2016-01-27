@@ -9,7 +9,7 @@
       "default_title": "Emote List"
    },
    "content_scripts": [ {
-      "css": [ "emotes.css", "modifiers.css" ],
+      "css": [ "emotes.css", "modifiers.css", "spoilers.css" ],
       "js": [ "code.js" ],
       "matches": [ "https://www.reddit.com/*", "https://voat.co/*" ]
    } ],
@@ -22,5 +22,5 @@
    "manifest_version": 2,
    "name": "BetterGFMotes",
    "permissions": [ "tabs", "https://reddit.com/*", "https://np.reddit.com/*", "https://voat.co/*" ],
-   "version": "0.5.0"
+   "version": "0.5.1"
 }
