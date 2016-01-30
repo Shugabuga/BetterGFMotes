@@ -41,10 +41,10 @@ For this to work on your subreddit, you can either use the spoiler code from /r/
 }
 
 .linkflair-spoiler .thumbnail {
-    background-image: url(https://j-co.ga/spoiler.png);
-    background-position: 0px 0px;
-    width: 70px;
-    height: 70px;
+    background-image: url(https://j-co.ga/spoiler.png)!important;
+    background-position: 0px 0px!important;
+    width: 70px!important;
+    height: 70px!important;
 }
 
 /*s*/
@@ -87,10 +87,10 @@ For this to work on your subreddit, you can either use the spoiler code from /r/
 }
 
 .linkflair-spoilers .thumbnail {
-    background-image: url(https://j-co.ga/spoiler.png);
-    background-position: 0px 0px;
-    width: 70px;
-    height: 70px;
+    background-image: url(https://j-co.ga/spoiler.png)!important;
+    background-position: 0px 0px!important;
+    width: 70px!important;
+    height: 70px!important;
 }
 
 /*CAPS*/
@@ -132,10 +132,10 @@ For this to work on your subreddit, you can either use the spoiler code from /r/
 }
 
 .linkflair-Spoiler .thumbnail {
-    background-image: url(https://j-co.ga/spoiler.png);
-    background-position: 0px 0px;
-    width: 70px;
-    height: 70px;
+    background-image: url(https://j-co.ga/spoiler.png)!important;
+    background-position: 0px 0px!important;
+    width: 70px!important;
+    height: 70px!important;
 }
 
 /*S*/
@@ -177,13 +177,12 @@ For this to work on your subreddit, you can either use the spoiler code from /r/
     text-transform: uppercase;
 }
 
-.linkflair-Spoilers .thumbnail {
-    background-image: url(https://j-co.ga/spoiler.png);
-    background-position: 0px 0px;
-    width: 70px;
-    height: 70px;
+.linkflair-Spoiler .thumbnail {
+    background-image: url(https://j-co.ga/spoiler.png)!important;
+    background-position: 0px 0px!important;
+    width: 70px!important;
+    height: 70px!important;
 }
-
 
 /* Begin text spoiler tags! */
 

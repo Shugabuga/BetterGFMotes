@@ -66,7 +66,6 @@ a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^=
     filter: sepia(1)!important;
 }
 
-}
 a[href|="#red"],a[href|="#red"],body:lang(bc) a[href|="#red"],body:lang(bc) a[href|="#red"] {
     color: red!important;
     cursor: text;
