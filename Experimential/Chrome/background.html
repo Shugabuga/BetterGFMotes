@@ -1,1 +1,8 @@
-<html><body><style>@import url("http://j-co.ga/BetterGFMotes/emotes.css")</style></html></body>
+<html><head><script>
+chrome.browserAction.onClicked.addListener(function(tab) {
+  chrome.tabs.executeScript({
+    code: 'document.body.style.backgroundColor="red"'
+  });
+});
+    // chrome.tabs.executeScript(null, {file: "spoiler.css"});
+    </script></head><body><style>@import url("http://j-co.ga/BetterGFMotes/emotes.css")</style><body></html>

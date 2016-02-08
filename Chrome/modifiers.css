@@ -173,3 +173,44 @@ a[href$="#rainbow"] {
     animation: rainbow 5s linear 0s infinite;
 }
 
+/* Spoiler Stuff */
+
+a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
+    text-shadow: 0 0 7px teal;
+    color: transparent!important;
+    cursor: text;
+}
+
+a[href|="#spoiler"]:before,a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before {
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    content: "Spoiler: ";
+    cursor: text;
+}
+
+a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    cursor: text;
+}
+
+a[href|="/spoiler"],a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"] {
+    text-shadow: 0 0 7px teal;
+    color: transparent!important;
+    cursor: text;
+}
+
+a[href|="/spoiler"]:before,a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before {
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    content: "Spoiler: ";
+    cursor: text;
+}
+
+a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"] {
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    cursor: text;
+}
+
+/* Spoiler Stuff END */
