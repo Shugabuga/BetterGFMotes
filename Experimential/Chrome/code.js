@@ -10,4 +10,3 @@ if (!document.getElementById(cssId))
     link.media = 'all';
     head.appendChild(link);
 }
-// document.querySelector("div.usertext-buttons").innerHTML = "<p>Edit the DOM by the 'save' button</p>";
