@@ -1031,7 +1031,7 @@ a[href|="#alex"] {
     display: block;
     clear: none;
     float: left;
-    background-image: url("//b.thumbs.redditmedia.com/vpReFtiX9PwMH5N2QTLdHhF3y2ZXfHib_qj_joseG5w.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/vpReFtiX9PwMH5N2QTLdHhF3y2ZXfHib_qj_joseG5w.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1081,7 +1081,7 @@ a[href|="#ralex"] {
     clear: none;
     float: left;
     transform: rotateY(180deg);
-    background-image: url("//b.thumbs.redditmedia.com/vpReFtiX9PwMH5N2QTLdHhF3y2ZXfHib_qj_joseG5w.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/vpReFtiX9PwMH5N2QTLdHhF3y2ZXfHib_qj_joseG5w.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1130,7 +1130,7 @@ a[href|="#sadt"] {
     display: block;
     clear: none;
     float: left;
-    background-image: url("//b.thumbs.redditmedia.com/dXuMjre2JvM38jTulu18i0HEq6U5dMIAnlJbrd_oBOo.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/dXuMjre2JvM38jTulu18i0HEq6U5dMIAnlJbrd_oBOo.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1180,7 +1180,7 @@ a[href|="#rsadt"] {
     clear: none;
     float: left;
     transform: rotateY(180deg);
-    background-image: url("//b.thumbs.redditmedia.com/dXuMjre2JvM38jTulu18i0HEq6U5dMIAnlJbrd_oBOo.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/dXuMjre2JvM38jTulu18i0HEq6U5dMIAnlJbrd_oBOo.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1226,7 +1226,7 @@ a[href|="#dippyfresh"] {
     display: block;
     clear: none;
     float: left;
-    background-image: url("//b.thumbs.redditmedia.com/7O0GEfO6jMz3ApSz8m7LidYLmhBEAT5p7FC9GlmFojY.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/7O0GEfO6jMz3ApSz8m7LidYLmhBEAT5p7FC9GlmFojY.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1273,7 +1273,7 @@ a[href|="#rdippyfresh"] {
     clear: none;
     float: left;
     transform: rotateY(180deg);
-    background-image: url("//b.thumbs.redditmedia.com/7O0GEfO6jMz3ApSz8m7LidYLmhBEAT5p7FC9GlmFojY.png")!important;
+    background-image: url("https://b.thumbs.redditmedia.com/7O0GEfO6jMz3ApSz8m7LidYLmhBEAT5p7FC9GlmFojY.png")!important;
     cursor: default;
     color: transparent;
 }
@@ -1549,3 +1549,39 @@ a[href|="#rlotsofthings"] {
     50% { -webkit-transform: translate(0px,2px) }
     100% { -webkit-transform: translate(0px,-2px) }
 }
+
+a[href|="#star"],
+a[href|="#steven"],
+a[href|="#wirt"],
+a[href|="#wander"] {
+    width: 70px!important;
+    height: 70px!important;
+    display: block;
+    clear: none;
+    float: left;
+    background-image: url("https://b.thumbs.redditmedia.com/Pu_CTrTbFNGRqm0qaNzqzmrOgk08RWp6-_KR9DdlY0U.png")!important;
+    cursor: default;
+    color: transparent;
+}
+a[href|="#rstar"],
+a[href|="#rsteven"],
+a[href|="#rwirt"],
+a[href|="#rwander"] {
+    width: 70px!important;
+    height: 70px!important;
+    display: block;
+    clear: none;
+    float: left;
+    transform: rotateY(180deg);
+    background-image: url("https://b.thumbs.redditmedia.com/Pu_CTrTbFNGRqm0qaNzqzmrOgk08RWp6-_KR9DdlY0U.png")!important;
+    cursor: default;
+    color: transparent;
+}
+a[href|="#star"],
+a[href|="#rstar"] { background-position: 0px 0px!important }
+a[href|="#steven"],
+a[href|="#rsteven"] { background-position: 0px -70px!important }
+a[href|="#wirt"],
+a[href|="#rwirt"] { background-position: 0px -140px!important }
+a[href|="#wander"],
+a[href|="#rwander"] { background-position: 0px -210px!important }
