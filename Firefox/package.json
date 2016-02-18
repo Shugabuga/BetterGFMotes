@@ -1,7 +1,7 @@
 {
   "title": "BetterGFMotes",
   "name": "bettergfmotes",
-  "version": "0.5.1",
+  "version": "0.5.2",
   "description": "Adds additional emotes to /r/gravityfalls and allows you to see them across Reddit.",
   "main": "index.js",
   "author": "HeyItsShuga",
