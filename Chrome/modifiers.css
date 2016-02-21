@@ -61,6 +61,10 @@ a[href^="#"][href$="-bw"],a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][h
     -webkit-filter: grayscale(1)!important;
     filter: grayscale(100%)!important;
 }
+a[href^="#"][href$="-mono"],a[href^="#"][href$="-mono"],body:lang(bc) a[href^="#"][href$="-mono"],body:lang(bc) a[href^="#"][href$="-mono"] {
+    -webkit-filter: grayscale(1)!important;
+    filter: grayscale(100%)!important;
+}
 a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"] {
     -webkit-filter: sepia(1)!important;
     filter: sepia(1)!important;
@@ -167,7 +171,6 @@ a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc
     84% { color: #F0F }
     100% { color: #F00 }
 }
-.save-button>a:hover,
 a[href$="#rainbow"] {
     -webkit-animation: rainbow 5s linear 0s infinite;
     animation: rainbow 5s linear 0s infinite;
@@ -214,3 +217,127 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
 }
 
 /* Spoiler Stuff END */
+
+/* This CSS was written by /u/DoubleDigitIQ! Thank him! */
+@keyframes intensify { 
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 0.5px;
+        top: 0px;
+    }
+    50% {
+        left: 0.5px;
+        top: 0.5px;
+    }
+    75% {
+        left: 0px;
+        top: 0.5px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+@-webkit-keyframes intensify { 
+    0% {
+        left: 0px;
+        top: 0px;
+    }
+    25% {
+        left: 0.5px;
+        top: 0px;
+    }
+    50% {
+        left: 0.5px;
+        top: 0.5px;
+    }
+    75% {
+        left: 0px;
+        top: 0.5px;
+    }
+    100% {
+        left: 0px;
+        top: 0px;
+    }
+}
+
+a[href^="#"][href$="-intensifies"],a[href^="#"][href$="-intensifies"],body:lang(bc) a[href^="#"][href$="-intensifies"],body:lang(bc) a[href^="#"][href$="-intensifies"] {
+    -webkit-animation: intensify 0.125s infinite linear;
+    position: relative;
+    animation: intensify 0.125s infinite linear;
+}
+
+/* This piece of CSS gives some more MyLittleChaos / BPM support to BetterGFMotes */
+
+a[href^="#"][href$="-ghost"],a[href^="#"][href$="-ghost"],body:lang(bc) a[href^="#"][href$="-ghost"],body:lang(bc) a[href^="#"][href$="-ghost"] {
+    filter:opacity(0.5)
+    -webkit-filter:opacity(0.5)
+}
+
+a[href^="#"][href$="-h45"],a[href^="#"][href$="-h45"],body:lang(bc) a[href^="#"][href$="-h45"],body:lang(bc) a[href^="#"][href$="-h45"] {
+    -webkit-filter: hue-rotate(45deg)!important;
+    filter: hue-rotate(45deg)!important;
+}
+a[href^="#"][href$="-h90"],a[href^="#"][href$="-h90"],body:lang(bc) a[href^="#"][href$="-h90"],body:lang(bc) a[href^="#"][href$="-h90"] {
+    -webkit-filter: hue-rotate(90deg)!important;
+    filter: hue-rotate(90deg)!important;
+}
+a[href^="#"][href$="-h135"],a[href^="#"][href$="-h135"],body:lang(bc) a[href^="#"][href$="-h135"],body:lang(bc) a[href^="#"][href$="-h135"] {
+    -webkit-filter: hue-rotate(135deg)!important;
+    filter: hue-rotate(135deg)!important;
+}
+a[href^="#"][href$="-h180"],a[href^="#"][href$="-h180"],body:lang(bc) a[href^="#"][href$="-h180"],body:lang(bc) a[href^="#"][href$="-h180"] {
+    -webkit-filter: hue-rotate(180deg)!important;
+    filter: hue-rotate(180deg)!important;
+}
+a[href^="#"][href$="-h225"],a[href^="#"][href$="-h225"],body:lang(bc) a[href^="#"][href$="-h225"],body:lang(bc) a[href^="#"][href$="-h225"] {
+    -webkit-filter: hue-rotate(225deg)!important;
+    filter: hue-rotate(225deg)!important;
+}
+a[href^="#"][href$="-h270"],a[href^="#"][href$="-h270"],body:lang(bc) a[href^="#"][href$="-h270"],body:lang(bc) a[href^="#"][href$="-h270"] {
+    -webkit-filter: hue-rotate(270deg)!important;
+    filter: hue-rotate(270deg)!important;
+}
+a[href^="#"][href$="-h315"],a[href^="#"][href$="-h315"],body:lang(bc) a[href^="#"][href$="-h315"],body:lang(bc) a[href^="#"][href$="-h315"] {
+    -webkit-filter: hue-rotate(315deg)!important;
+    filter: hue-rotate(315deg)!important;
+}
+
+/* Rotations from CHAOS / BPM */
+
+a:hover[href^='#'][href*='-r'][href*='-d']{transform:rotate(0deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-45'],a:hover[href^='#'][href*='-45'][href*='-r'][href*='-d']{transform:rotate(45deg)scaleX(1)}
+a[href^='#'][href*='-90'],a:hover[href^='#'][href*='-90'][href*='-r'][href*='-d']{transform:rotate(90deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-135'],a:hover[href^='#'][href*='-135'][href*='-r'][href*='-d']{transform:rotate(135deg)scaleX(1)}
+a[href^='#'][href*='-180'],a:hover[href^='#'][href*='-180'][href*='-r'][href*='-d']{transform:rotate(180deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-225'],a:hover[href^='#'][href*='-225'][href*='-r'][href*='-d']{transform:rotate(225deg)scaleX(1)}
+a[href^='#'][href*='-270'],a:hover[href^='#'][href*='-270'][href*='-r'][href*='-d']{transform:rotate(270deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-315'],a:hover[href^='#'][href*='-315'][href*='-r'][href*='-d']{transform:rotate(315deg)scaleX(1)}
+a[href^='#'][href*='-r'],a:hover[href^='#'][href*='-d']{transform:rotate(0deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-45'][href*='-r'],a:hover[href^='#'][href*='-45'][href*='-d']{transform:rotate(45deg)scaleX(-1)}
+a[href^='#'][href*='-90'][href*='-r'],a:hover[href^='#'][href*='-90'][href*='-d']{transform:rotate(90deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-135'][href*='-r'],a:hover[href^='#'][href*='-135'][href*='-d']{transform:rotate(135deg)scaleX(-1)}
+a[href^='#'][href*='-180'][href*='-r'],a:hover[href^='#'][href*='-180'][href*='-d']{transform:rotate(180deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-225'][href*='-r'],a:hover[href^='#'][href*='-225'][href*='-d']{transform:rotate(225deg)scaleX(-1)}
+a[href^='#'][href*='-270'][href*='-r'],a:hover[href^='#'][href*='-270'][href*='-d']{transform:rotate(270deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-315'][href*='-r'],a:hover[href^='#'][href*='-315'][href*='-d']{transform:rotate(315deg)scaleX(-1)}
+a[href^='#'][href*='-225'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-225'][href*='-f'][href*='-d']{transform:rotate(45deg)scaleX(1)}
+a[href^='#'][href*='-270'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-270'][href*='-f'][href*='-d']{transform:rotate(90deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-315'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-315'][href*='-f'][href*='-d']{transform:rotate(135deg)scaleX(1)}
+a[href^='#'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-f'][href*='-d']{transform:rotate(180deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-45'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-45'][href*='-f'][href*='-d']{transform:rotate(225deg)scaleX(1)}
+a[href^='#'][href*='-90'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-90'][href*='-f'][href*='-d']{transform:rotate(270deg)scaleX(1);image-rendering:crisp-edges}
+a[href^='#'][href*='-135'][href*='-f'][href*='-r'],a:hover[href^='#'][href*='-135'][href*='-f'][href*='-d']{transform:rotate(315deg)scaleX(1)}
+a[href^='#'][href*='-225'][href*='-f'],a:hover[href^='#'][href*='-225'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(45deg)scaleX(-1)}
+a[href^='#'][href*='-270'][href*='-f'],a:hover[href^='#'][href*='-270'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(90deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-315'][href*='-f'],a:hover[href^='#'][href*='-315'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(135deg)scaleX(-1)}
+a[href^='#'][href*='-f'],a:hover[href^='#'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(180deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-45'][href*='-f'],a:hover[href^='#'][href*='-45'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(225deg)scaleX(-1)}
+a[href^='#'][href*='-90'][href*='-f'],a:hover[href^='#'][href*='-90'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(270deg)scaleX(-1);image-rendering:crisp-edges}
+a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(315deg)scaleX(-1)}
+
+/* NOTICE: The code above was modified to work in Chrome.*/
