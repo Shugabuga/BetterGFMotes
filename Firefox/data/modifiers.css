@@ -341,3 +341,14 @@ a[href^='#'][href*='-90'][href*='-f'],a:hover[href^='#'][href*='-90'][href*='-f'
 a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(315deg)scaleX(-1)}
 
 /* NOTICE: The code above was modified to work in Chrome.*/
+
+/* START Emote click disabling */
+
+.md a[href]:not([href*=":"]):not([href="#"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]){
+    cursor:default;
+}
+.md a[href]:not([href*=":"]):not([href="#"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]):active{
+    pointer-events:none;
+}
+
+/* END Emote click disabling */
