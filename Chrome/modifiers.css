@@ -41,11 +41,11 @@ a[href|="#blank"],a[href|="#blank"],body:lang(bc) a[href|="#blank"],body:lang(bc
     padding-right:100%;
 }
 
-a[href^="#"][href$="-in"],a[href^="#"][href$="-inp"],body:lang(bc) a[href^="#"][href$="-in"],body:lang(bc) a[href^="#"][href$="-inp"] {
+a[href^="#"][href*="-in"],a[href^="#"][href*="-inp"],body:lang(bc) a[href^="#"][href*="-in"],body:lang(bc) a[href^="#"][href*="-inp"] {
     float:none!important;
     display:inline-block!important;
 }
-a[href^="#"][href$="-blur"],a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#"][href$="-blur"] {
+a[href^="#"][href*="-blur"],a[href^="#"][href*="-blur"],body:lang(bc) a[href^="#"][href*="-blur"],body:lang(bc) a[href^="#"][href*="-blur"] {
     -webkit-filter: blur(5px)!important;
     filter: blur(5px)!important;
 }
@@ -53,19 +53,19 @@ a[href^="#"][href$="-blur"],a[href^="#"][href$="-blur"],body:lang(bc) a[href^="#
 a[href^="#"][href$="-r"],a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"],body:lang(bc) a[href^="#"][href$="-r"] {
     transform:rotateY(180deg)!important;
 }
-a[href^="#"][href$="-invert"],a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"],body:lang(bc) a[href^="#"][href$="-invert"] {
+a[href^="#"][href*="-invert"],a[href^="#"][href*="-invert"],body:lang(bc) a[href^="#"][href*="-invert"],body:lang(bc) a[href^="#"][href*="-invert"] {
     -webkit-filter: invert(100%)!important;
     filter: invert(100%)!important;
 }
-a[href^="#"][href$="-bw"],a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"],body:lang(bc) a[href^="#"][href$="-bw"] {
+a[href^="#"][href*="-bw"],a[href^="#"][href*="-bw"],body:lang(bc) a[href^="#"][href*="-bw"],body:lang(bc) a[href^="#"][href*="-bw"] {
     -webkit-filter: grayscale(1)!important;
     filter: grayscale(100%)!important;
 }
-a[href^="#"][href$="-mono"],a[href^="#"][href$="-mono"],body:lang(bc) a[href^="#"][href$="-mono"],body:lang(bc) a[href^="#"][href$="-mono"] {
+a[href^="#"][href*="-mono"],a[href^="#"][href*="-mono"],body:lang(bc) a[href^="#"][href*="-mono"],body:lang(bc) a[href^="#"][href*="-mono"] {
     -webkit-filter: grayscale(1)!important;
     filter: grayscale(100%)!important;
 }
-a[href^="#"][href$="-sepia"],a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"],body:lang(bc) a[href^="#"][href$="-sepia"] {
+a[href^="#"][href*="-sepia"],a[href^="#"][href*="-sepia"],body:lang(bc) a[href^="#"][href*="-sepia"],body:lang(bc) a[href^="#"][href*="-sepia"] {
     -webkit-filter: sepia(1)!important;
     filter: sepia(1)!important;
 }
@@ -120,18 +120,18 @@ a[href|="#cyan"],a[href|="#cyan"],body:lang(bc) a[href|="#cyan"],body:lang(bc) a
     cursor: text;
 }
 
-a[href^="#"][href$="-i"],a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"] {
+a[href^="#"][href$="-i"],a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href*="$i"] {
     -webkit-filter: hue-rotate(180deg)!important;
     filter: hue-rotate(180deg)!important;
 }
-a[href^="#"][href$="-up"],a[href^="#"][href$="-up"],body:lang(bc) a[href^="#"][href$="-up"],body:lang(bc) a[href^="#"][href$="-up"] {
+a[href^="#"][href*="-up"],a[href^="#"][href*="-up"],body:lang(bc) a[href^="#"][href*="-up"],body:lang(bc) a[href^="#"][href*="-up"] {
     transform:rotateX(180deg)!important;
 }
 
-a[href^="#"][href$="-shadow"],a[href^="#"][href$="-shadow"],body:lang(bc) a[href^="#"][href$="-shadow"],body:lang(bc) a[href^="#"][href$="-shadow"] {
+a[href^="#"][href*="-shadow"],a[href^="#"][href*="-shadow"],body:lang(bc) a[href^="#"][href*="-shadow"],body:lang(bc) a[href^="#"][href*="-shadow"] {
     -webkit-filter: grayscale;
     -webkit-filter: brightness(0%);
-}
+}*
 a[href|="#papyrus"],a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"] {
     font-family: Papyrus, fantasy!important;
     color: black!important;
@@ -265,7 +265,7 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
     }
 }
 
-a[href^="#"][href$="-intensifies"],a[href^="#"][href$="-intensifies"],body:lang(bc) a[href^="#"][href$="-intensifies"],body:lang(bc) a[href^="#"][href$="-intensifies"] {
+a[href^="#"][href*="-intensifies"],a[href^="#"][href*="-intensifies"],body:lang(bc) a[href^="#"][href*="-intensifies"],body:lang(bc) a[href^="#"][href*="-intensifies"] {
     -webkit-animation: intensify 0.125s infinite linear;
     position: relative;
     animation: intensify 0.125s infinite linear;
@@ -273,36 +273,36 @@ a[href^="#"][href$="-intensifies"],a[href^="#"][href$="-intensifies"],body:lang(
 
 /* This piece of CSS gives some more MyLittleChaos / BPM support to BetterGFMotes */
 
-a[href^="#"][href$="-ghost"],a[href^="#"][href$="-ghost"],body:lang(bc) a[href^="#"][href$="-ghost"],body:lang(bc) a[href^="#"][href$="-ghost"] {
+a[href^="#"][href$="-ghost"],a[href^="#"][href*="-ghost"],body:lang(bc) a[href^="#"][href*="-ghost"],body:lang(bc) a[href^="#"][href*="-ghost"] {
     filter:opacity(0.5)
     -webkit-filter:opacity(0.5)
 }
 
-a[href^="#"][href$="-h45"],a[href^="#"][href$="-h45"],body:lang(bc) a[href^="#"][href$="-h45"],body:lang(bc) a[href^="#"][href$="-h45"] {
+a[href^="#"][href$="-h45"],a[href^="#"][href*="-h45"],body:lang(bc) a[href^="#"][href*="-h45"],body:lang(bc) a[href^="#"][href*="-h45"] {
     -webkit-filter: hue-rotate(45deg)!important;
     filter: hue-rotate(45deg)!important;
 }
-a[href^="#"][href$="-h90"],a[href^="#"][href$="-h90"],body:lang(bc) a[href^="#"][href$="-h90"],body:lang(bc) a[href^="#"][href$="-h90"] {
+a[href^="#"][href*="-h90"],a[href^="#"][href*="-h90"],body:lang(bc) a[href^="#"][href*="-h90"],body:lang(bc) a[href^="#"][href*="-h90"] {
     -webkit-filter: hue-rotate(90deg)!important;
     filter: hue-rotate(90deg)!important;
 }
-a[href^="#"][href$="-h135"],a[href^="#"][href$="-h135"],body:lang(bc) a[href^="#"][href$="-h135"],body:lang(bc) a[href^="#"][href$="-h135"] {
+a[href^="#"][href*="-h135"],a[href^="#"][href*="-h135"],body:lang(bc) a[href^="#"][href*="-h135"],body:lang(bc) a[href^="#"][href*="-h135"] {
     -webkit-filter: hue-rotate(135deg)!important;
     filter: hue-rotate(135deg)!important;
 }
-a[href^="#"][href$="-h180"],a[href^="#"][href$="-h180"],body:lang(bc) a[href^="#"][href$="-h180"],body:lang(bc) a[href^="#"][href$="-h180"] {
+a[href^="#"][href*="-h180"],a[href^="#"][href*="-h180"],body:lang(bc) a[href^="#"][href=*"-h180"],body:lang(bc) a[href^="#"][href*="-h180"] {
     -webkit-filter: hue-rotate(180deg)!important;
     filter: hue-rotate(180deg)!important;
 }
-a[href^="#"][href$="-h225"],a[href^="#"][href$="-h225"],body:lang(bc) a[href^="#"][href$="-h225"],body:lang(bc) a[href^="#"][href$="-h225"] {
+a[href^="#"][href*="-h225"],a[href^="#"][href*="-h225"],body:lang(bc) a[href^="#"][href*="-h225"],body:lang(bc) a[href^="#"][href*="-h225"] {
     -webkit-filter: hue-rotate(225deg)!important;
     filter: hue-rotate(225deg)!important;
 }
-a[href^="#"][href$="-h270"],a[href^="#"][href$="-h270"],body:lang(bc) a[href^="#"][href$="-h270"],body:lang(bc) a[href^="#"][href$="-h270"] {
+a[href^="#"][href*="-h270"],a[href^="#"][href*="-h270"],body:lang(bc) a[href^="#"][href*="-h270"],body:lang(bc) a[href^="#"][href*="-h270"] {
     -webkit-filter: hue-rotate(270deg)!important;
     filter: hue-rotate(270deg)!important;
 }
-a[href^="#"][href$="-h315"],a[href^="#"][href$="-h315"],body:lang(bc) a[href^="#"][href$="-h315"],body:lang(bc) a[href^="#"][href$="-h315"] {
+a[href^="#"][href*="-h315"],a[href^="#"][href*="-h315"],body:lang(bc) a[href^="#"][href*="-h315"],body:lang(bc) a[href^="#"][href*="-h315"] {
     -webkit-filter: hue-rotate(315deg)!important;
     filter: hue-rotate(315deg)!important;
 }
@@ -355,7 +355,7 @@ a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-
 
 a[href^='#'][href*='-glitter']::before{
 content:" ";
-background: url(http://f.thumbs.redditmedia.com/o7LMG8mG9TwilvIw.png) scroll;
+background: url(https://f.thumbs.redditmedia.com/o7LMG8mG9TwilvIw.png) scroll;
 width: 100%;
 height: 100%;
 display:block;
@@ -364,7 +364,7 @@ z-index: 3;
 
 a[href^='#'][href*='-sparkle']::before{
 content:" ";
-background: url(http://e.thumbs.redditmedia.com/mzcJeIHQK3IcxwQd.png) scroll;
+background: url(https://e.thumbs.redditmedia.com/mzcJeIHQK3IcxwQd.png) scroll;
 display: block;
 height: 100%;
 width: 100%;
@@ -373,7 +373,7 @@ z-index: 3;
 
 a[href^='#'][href*='-rainbowsparkle']::before{
 content:" ";
-background: url(http://d.thumbs.redditmedia.com/mH_TxiA3cOLCSwMQ.png) scroll;
+background: url(https://d.thumbs.redditmedia.com/mH_TxiA3cOLCSwMQ.png) scroll;
 display: block;
 height: 100%;
 width: 100%;
@@ -382,7 +382,7 @@ z-index: 3;
 
 a[href^='#'][href*='-glitch']::before{
 content:" ";
-background: url(http://c.thumbs.redditmedia.com/4ng0sBV_G3NnGPd8.png) scroll;
+background: url(https://c.thumbs.redditmedia.com/4ng0sBV_G3NnGPd8.png) scroll;
 display: block;
 height: 100%;
 width: 100%;
@@ -391,16 +391,16 @@ z-index: 3;
 
 a[href^='#'][href*='-intenseglitch']::before{
 content:" ";
-background: url(http://b.thumbs.redditmedia.com/N-fhJfepnyJGTwiU.png) scroll;
+background: url(https://b.thumbs.redditmedia.com/N-fhJfepnyJGTwiU.png) scroll;
 display: block;
 height: 100%;
 width: 100%;
 z-index: 3;
 }
 
-a[href^='#'][href*='-red']::before{
+a[href^='#'][href*='-colorred']::before{
 content:" ";
-background: url(https://ckckred.files.wordpress.com/2013/07/red.jpg) scroll;
+background: url(https://j-co.ga/BetterGFMotesDB/ColorFilterImg/red.png) scroll;
 display: block;
 height: 100%;
 width: 100%;
