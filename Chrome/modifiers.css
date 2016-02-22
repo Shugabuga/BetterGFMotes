@@ -153,7 +153,7 @@ a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc
 }
 
 
-@-webkit-keyframes rainbow {
+@-webkit-keyframes bettergfmotes-rainbow {
     0% { color: #F00 }
     17% { color: #FF0 }
     33% { color: #0F0 }
@@ -162,7 +162,7 @@ a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc
     84% { color: #F0F }
     100% { color: #F00 }
 }
-@keyframes rainbow {
+@keyframes bettergfmotes-rainbow {
     0% { color: #F00 }
     17% { color: #FF0 }
     33% { color: #0F0 }
@@ -172,8 +172,8 @@ a[href|="#times"],a[href|="#times"],body:lang(bc) a[href|="#times"],body:lang(bc
     100% { color: #F00 }
 }
 a[href$="#rainbow"] {
-    -webkit-animation: rainbow 5s linear 0s infinite;
-    animation: rainbow 5s linear 0s infinite;
+    -webkit-animation: bettergfmotes-rainbow 5s linear 0s infinite;
+    animation: bettergfmotes-rainbow 5s linear 0s infinite;
 }
 
 /* Spoiler Stuff */
@@ -181,6 +181,7 @@ a[href$="#rainbow"] {
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
     text-shadow: 0 0 7px teal;
     color: transparent!important;
+    background-color: transparent!important;
     cursor: text;
 }
 
@@ -189,13 +190,17 @@ a[href|="#spoiler"]:before,a[href|="#spoiler"]:before,body:lang(bc) a[href|="#sp
     color: teal;
     content: "Spoiler: ";
     cursor: text;
+    background-color: transparent!important;
 }
 
 a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
     text-shadow: 0 0 0px teal;
     color: teal;
     cursor: text;
+    background-color: transparent!important;
 }
+
+/* Please note that the spoiler tags won't conflict with BPM now! */
 
 a[href|="/spoiler"],a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"] {
     text-shadow: 0 0 7px teal;
@@ -216,10 +221,25 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
     cursor: text;
 }
 
+.bpmote-spoiler {
+    background-color: black;
+    color: black;
+}
+.bpmote-spoiler:before {
+    background-color: black;
+    content: " "!important;
+    color: black;
+}
+.bpmote-spoiler:hover {
+    background-color: black;
+    content: "";
+    color: white;
+}
+
 /* Spoiler Stuff END */
 
 /* This CSS was written by /u/DoubleDigitIQ! Thank him! */
-@keyframes intensify { 
+@keyframes bettergfmotes-intensify { 
     0% {
         left: 0px;
         top: 0px;
@@ -242,7 +262,7 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
     }
 }
 
-@-webkit-keyframes intensify { 
+@-webkit-keyframes bettergfmotes-intensify { 
     0% {
         left: 0px;
         top: 0px;
@@ -266,9 +286,9 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
 }
 
 a[href^="#"][href*="-intensifies"],a[href^="#"][href*="-intensifies"],body:lang(bc) a[href^="#"][href*="-intensifies"],body:lang(bc) a[href^="#"][href*="-intensifies"] {
-    -webkit-animation: intensify 0.125s infinite linear;
+    -webkit-animation: bettergfmotes-intensify 0.125s infinite linear;
     position: relative;
-    animation: intensify 0.125s infinite linear;
+    animation: bettergfmotes-intensify 0.125s infinite linear;
 }
 
 /* This piece of CSS gives some more MyLittleChaos / BPM support to BetterGFMotes */
@@ -342,13 +362,10 @@ a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-
 
 /* NOTICE: The code above was modified to work in Chrome.*/
 
-/* START Emote click disabling */
 
-.md a[href]:not([href*=":"]):not([href="#"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]){
-    cursor:default;
-}
-.md a[href]:not([href*=":"]):not([href="#"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]):active{
+.md a[href]:not([href*=":"]):not([href*="/"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]):active {
     pointer-events:none;
+     cursor:default;
 }
 
 /* END Emote click disabling, start overlays */
@@ -405,4 +422,20 @@ display: block;
 height: 100%;
 width: 100%;
 z-index: 3;
+}
+
+@keyframes bettergfmotes-slide {
+    0% { left: 0%}
+    25% { left: 12.5%}
+    50% { left: 25%}
+    75% { left: 37.5%}
+    100% { left: 50%}
+}
+
+
+
+a[href^='#'][href*='-slide'] {
+    animation: bettergfmotes-slide 3s infinite alternate linear;
+    position: absolute;
+    /* width: 20%; */
 }
