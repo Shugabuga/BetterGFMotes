@@ -179,46 +179,39 @@ a[href$="#rainbow"] {
 /* Spoiler Stuff */
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
-    text-shadow: 0 0 7px teal;
-    color: transparent!important;
-    background-color: transparent!important;
-    cursor: text;
+    background-color: black;
+    color: black;
 }
 
 a[href|="#spoiler"]:before,a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before {
-    text-shadow: 0 0 0px teal;
-    color: teal;
-    content: "Spoiler: ";
-    cursor: text;
-    background-color: transparent!important;
+    background-color: black;
+    color: black;
+    content: " "!important;
 }
 
 a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
-    text-shadow: 0 0 0px teal;
-    color: teal;
-    cursor: text;
-    background-color: transparent!important;
+    background-color: black;
+    content: "";
+    color: white!important;
 }
 
 /* Please note that the spoiler tags won't conflict with BPM now! */
 
 a[href|="/spoiler"],a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"] {
-    text-shadow: 0 0 7px teal;
-    color: transparent!important;
-    cursor: text;
+    background-color: black;
+    color: black;
 }
 
 a[href|="/spoiler"]:before,a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before {
-    text-shadow: 0 0 0px teal;
-    color: teal;
-    content: "Spoiler: ";
-    cursor: text;
+    background-color: black;
+    color: black;
+    content: " "!important;
 }
 
 a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"] {
-    text-shadow: 0 0 0px teal;
-    color: teal;
-    cursor: text;
+    background-color: black;
+    content: "";
+    color: white!important;
 }
 
 .bpmote-spoiler {

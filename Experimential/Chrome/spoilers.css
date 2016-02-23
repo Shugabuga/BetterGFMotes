@@ -184,7 +184,7 @@ For this to work on your subreddit, you can either use the spoiler code from /r/
     height: 70px!important;
 }
 
-/* Begin text spoiler tags! */
+/* Begin text spoiler tags! (now in modifiers.css)
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
     text-shadow: 0 0 7px teal;
