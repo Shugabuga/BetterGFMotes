@@ -10,6 +10,20 @@ Changelog:
 
 /* The emotes below are exclusive to BetterGFMotes. */
 
+a[href|="#heyyou"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/heyyou.png) no-repeat;
+    width: 55px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#bippyfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/bippyfresh.png) no-repeat;
+    width: 49px;
+    height: 70px;
+    display: block;
+    float: left
+}
 a[href|="#abandonthread"] {
     background: url(https://j-co.ga/BetterGFMotesDB/abandonthread.gif) no-repeat;
     width: 400px;

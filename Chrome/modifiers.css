@@ -353,12 +353,12 @@ a[href^='#'][href*='-45'][href*='-f'],a:hover[href^='#'][href*='-45'][href*='-f'
 a[href^='#'][href*='-90'][href*='-f'],a:hover[href^='#'][href*='-90'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(270deg)scaleX(-1);image-rendering:crisp-edges}
 a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(315deg)scaleX(-1)}
 
-/* NOTICE: The code above was modified to work in Chrome.*/
+/* NOTICE: The code above was modified to work in Chrome. Now click-prevention! */
 
 
 .md a[href]:not([href*=":"]):not([href*="/"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]):active {
     pointer-events:none;
-     cursor:default;
+    cursor:default;
 }
 
 /* END Emote click disabling, start overlays */
@@ -408,6 +408,8 @@ width: 100%;
 z-index: 3;
 }
 
+/* A feature I was going to add, but I didn't really like how it looked.
+
 a[href^='#'][href*='-colorred']::before{
 content:" ";
 background: url(https://j-co.ga/BetterGFMotesDB/ColorFilterImg/red.png) scroll;
@@ -416,6 +418,8 @@ height: 100%;
 width: 100%;
 z-index: 3;
 }
+
+*/
 
 @keyframes bettergfmotes-slide {
     0% { left: 0%}
