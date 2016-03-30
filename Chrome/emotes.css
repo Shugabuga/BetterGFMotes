@@ -1,15 +1,16 @@
-/* BetterGFMotes Emote CSS
-
-Changelog:
-
-- Emergency patch for BetterGFMotes with more emotes.
-- Bug fixes
-
-*/
+/* BetterGFMotes Emote CSS */
 
 
 /* The emotes below are exclusive to BetterGFMotes. */
 
+
+a[href|="#evilfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/evilfresh.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
 a[href|="#heyyou"] {
     background: url(https://j-co.ga/BetterGFMotesDB/heyyou.png) no-repeat;
     width: 55px;
@@ -1094,6 +1095,14 @@ a[href|="#dippyfresh"],a[href|="#rdippyfresh"],a[href|="#lookonhisface"],a[href|
 background-position:0 -630px!important;
 }
 */
+
+a[href|="#joaje"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/heraim.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
 
 /* The emotes below are from /r/gravityfalls as of Feburary 2016. I *think* everything is stable. */
 
