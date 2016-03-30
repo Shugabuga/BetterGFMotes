@@ -1,14 +1,126 @@
-/* BetterGFMotes Emote CSS
-
-Changelog:
-
-- Emergency patch for BetterGFMotes with more emotes.
-- Bug fixes
-
-*/
+/* BetterGFMotes Emote CSS */
 
 
 /* The emotes below are exclusive to BetterGFMotes. */
+
+
+a[href|="#evilfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/evilfresh.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#heyyou"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/heyyou.png) no-repeat;
+    width: 55px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#bippyfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/bippyfresh.png) no-repeat;
+    width: 49px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#abandonthread"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/abandonthread.gif) no-repeat;
+    width: 400px;
+    height: 338px;
+    display: block;
+    float: left
+}
+a[href|="#abandonthread2"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/abandonthread2.gif) no-repeat;
+    width: 400px;
+    height: 300px;
+    display: block;
+    float: left
+}
+a[href|="#dipcrazy"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/dipcrazy.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#dipcrazy"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/dipcrazy.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#fordeatskids"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/fordeatskids.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#hoh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/hoh.png) no-repeat;
+    width: 173px;
+    height: 100px;
+    display: block;
+    float: left
+}
+a[href|="#nevermindallthat"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/nevermindallthat.jpeg) no-repeat;
+    width: 300px;
+    height: 169px;
+    display: block;
+    float: left
+}
+a[href|="#nocomment"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/nocomment.gif) no-repeat;
+    width: 500px;
+    height: 273px;
+    display: block;
+    float: left
+}
+a[href|="#ohsnap"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/ohsnap.gif) no-repeat;
+    width: 300px;
+    height: 225px;
+    display: block;
+    float: left
+}
+a[href|="#permascarred"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/permascarred.gif) no-repeat;
+    width: 480px;
+    height: 270px;
+    display: block;
+    float: left
+}
+a[href|="#siblinghug"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/siblinghug.gif) no-repeat;
+    width: 245px;
+    height: 250px;
+    display: block;
+    float: left
+}
+a[href|="#soosgasp"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/soosgasp.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#wendisappoint"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/wendisappoint.png) no-repeat;
+    width: 73px;
+    height: 70px;
+    display: block;
+    float: left
+}
+
+
+
+
+
 
 a[href|="#bitchplease"] {
     background: url(https://j-co.ga/BetterGFMotesDB/8FEB2016/bitchplease.png) no-repeat;
@@ -983,6 +1095,14 @@ a[href|="#dippyfresh"],a[href|="#rdippyfresh"],a[href|="#lookonhisface"],a[href|
 background-position:0 -630px!important;
 }
 */
+
+a[href|="#joaje"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/heraim.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
 
 /* The emotes below are from /r/gravityfalls as of Feburary 2016. I *think* everything is stable. */
 

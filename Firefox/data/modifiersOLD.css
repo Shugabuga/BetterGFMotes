@@ -179,39 +179,46 @@ a[href$="#rainbow"] {
 /* Spoiler Stuff */
 
 a[href|="#spoiler"],a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"],body:lang(bc) a[href|="#spoiler"] {
-    background-color: black;
-    color: black;
+    text-shadow: 0 0 7px teal;
+    color: transparent!important;
+    background-color: transparent;
+    cursor: text;
 }
 
 a[href|="#spoiler"]:before,a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before,body:lang(bc) a[href|="#spoiler"]:before {
-    background-color: black;
-    color: black;
-    content: " "!important;
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    content: "Spoiler: ";
+    cursor: text;
+    background-color: transparent;
 }
 
 a:hover[href|="#spoiler"],a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"],body:lang(bc) a:hover[href|="#spoiler"] {
-    background-color: black;
-    content: "";
-    color: white!important;
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    cursor: text;
+    background-color: transparent;
 }
 
 /* Please note that the spoiler tags won't conflict with BPM now! */
 
 a[href|="/spoiler"],a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"],body:lang(bc) a[href|="/spoiler"] {
-    background-color: black;
-    color: black;
+    text-shadow: 0 0 7px teal;
+    color: transparent;
+    cursor: text;
 }
 
 a[href|="/spoiler"]:before,a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before,body:lang(bc) a[href|="/spoiler"]:before {
-    background-color: black;
-    color: black;
-    content: " "!important;
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    content: "Spoiler: ";
+    cursor: text;
 }
 
 a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|="/spoiler"] {
-    background-color: black;
-    content: "";
-    color: white!important;
+    text-shadow: 0 0 0px teal;
+    color: teal;
+    cursor: text;
 }
 
 .bpmote-spoiler {
@@ -353,12 +360,12 @@ a[href^='#'][href*='-45'][href*='-f'],a:hover[href^='#'][href*='-45'][href*='-f'
 a[href^='#'][href*='-90'][href*='-f'],a:hover[href^='#'][href*='-90'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(270deg)scaleX(-1);image-rendering:crisp-edges}
 a[href^='#'][href*='-135'][href*='-f'],a:hover[href^='#'][href*='-135'][href*='-f'][href*='-r'][href*='-d']{transform:rotate(315deg)scaleX(-1)}
 
-/* NOTICE: The code above was modified to work in Chrome. Now click-prevention! */
+/* NOTICE: The code above was modified to work in Chrome.*/
 
 
 .md a[href]:not([href*=":"]):not([href*="/"]):not([href^="/r/"]):not([href^="/u/"]):not([href^="/user/"]):active {
     pointer-events:none;
-    cursor:default;
+     cursor:default;
 }
 
 /* END Emote click disabling, start overlays */
@@ -408,8 +415,6 @@ width: 100%;
 z-index: 3;
 }
 
-/* A feature I was going to add, but I didn't really like how it looked.
-
 a[href^='#'][href*='-colorred']::before{
 content:" ";
 background: url(https://j-co.ga/BetterGFMotesDB/ColorFilterImg/red.png) scroll;
@@ -418,8 +423,6 @@ height: 100%;
 width: 100%;
 z-index: 3;
 }
-
-*/
 
 @keyframes bettergfmotes-slide {
     0% { left: 0%}
