@@ -10,6 +10,15 @@ Changelog:
 
 /* The emotes below are exclusive to BetterGFMotes. */
 
+
+a[href|="#bitchplease"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/8FEB2016/bitchplease.png) no-repeat;
+    width: 64px;
+    height: 64px;
+    display: block;
+    float: left
+}
+
 a[href|="#bitchplease"] {
     background: url(https://j-co.ga/BetterGFMotesDB/8FEB2016/bitchplease.png) no-repeat;
     width: 64px;
