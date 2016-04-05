@@ -456,7 +456,7 @@ a[href|="#creepygideon"] {
     display: block;
     float: left
 }
-a[href|="#dipper"] {
+a[href|="#dipper2"] {
     background: url(https://j-co.ga/BetterGFMotesDB/dipper.png) no-repeat;
     width: 70px;
     height: 70px;
@@ -1705,3 +1705,134 @@ a[href|="#wirt"],
 a[href|="#rwirt"] { background-position: 0px -140px!important }
 a[href|="#wander"],
 a[href|="#rwander"] { background-position: 0px -210px!important }
+
+/* /r/TakeBackGravityFalls has allowed us to use their emotes. Here they are (some changed because of conflicts). Please inform the moderators of the subreddit before using these, as they don't allow distribution of this information. */
+
+a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a[href|='#dipper'], a[href|='#dipdoh'], a[href|='#wendyup'], a[href|='#wendyreal'],a[href|='#wendylight'], a[href|='#udabest'], a[href|='#billtbgf'], a[href|='#stanbucks'], a[href|='#blindeye'], a[href|='#extroar']
+{
+  width:70px !important;
+  height:70px !important; 
+  display: block;
+  clear: none;
+  float: left;
+  background-image: url(https://j-co.ga/BetterGFMotesDB/TakeBackGravityFallsSpritesheet.png) !important;
+  cursor:default;   
+ /* Picture frame
+  color:transparent;
+  margin: 2px 5px 2px 2px;
+  border-width: 3px 3px 10px 3px;
+  border-color: #F2F2F2;
+  border-style: solid; 
+  -webkit-transform: rotate(1deg);
+  -moz-transform: rotate(1deg);
+  -ms-transform: rotate(1deg);
+  -o-transform: rotate(1deg);
+  transform: rotate(1deg);
+  -webkit-box-shadow: 1px 1px 2px black;
+  -moz-box-shadow: 1px 1px 2px black;
+  box-shadow: 1px 1px 2px black;
+    */
+}
+
+a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'], a[href|='#rdipper'], a[href|='#rdipdoh'], a[href|='#rwendyup'], a[href|='#rwendyreal'], a[href|='##wendylight'], a[href|='#rudabest'] a[href|='#rbilltbgf'], a[href|='#rstanbucks'], a[href|='#rblindeye'], a[href|='#rextroar']
+{
+  width:70px !important; 
+  height:70px !important; 
+  display: block;
+  clear: none;
+  float: left;
+  -webkit-transform: rotateY(180deg);
+  transform: rotateY(180deg);
+  background-image: url(https://j-co.ga/BetterGFMotesDB/TakeBackGravityFallsSpritesheet.png) !important;
+  cursor:default;
+  /* Picture frame
+  color:transparent;
+  margin: 2px 5px 2px 2px;
+  -webkit-transform: scaleX(-1) rotate(1deg);
+  -moz-transform: scaleX(-1) rotate(1deg); 
+  -ms-transform: scaleX(-1) rotate(1deg);
+  -o-transform: scaleX(-1) rotate(1deg);
+  transform: scaleX(-1) rotate(1deg);
+  border-width: 3px 3px 10px 3px; 
+  border-color: #F2F2F2; 
+  border-style: solid;
+  -webkit-box-shadow: -1px 1px 2px black;
+  -moz-box-shadow: -1px 1px 2px black;
+  box-shadow: -1px 1px 2px black;
+    */
+}
+
+a[href|='#mabeltbgf'], a[href|='#rmabeltbgf']
+{
+  background-position: 0px 0px !important;
+}
+a[href|='#mayhog'], a[href|='#rmayhog']
+{
+  background-position: -70px 0px !important;
+}
+a[href|='#stan'], a[href|='#rstan']
+{
+  background-position: -140px 0px !important;
+}
+a[href|='#ford'], a[href|='#rford']
+{
+  background-position: -210px 0px !important;
+}
+a[href|='#dipper'], a[href|='#rdipper']
+{
+  background-position: 0px -70px !important;
+}
+a[href|='#dipdoh'], a[href|='#rdipdoh']
+{
+  background-position: -70px -70px !important;
+}
+a[href|='#wendyup'], a[href|='#rwendyup']
+{
+  background-position: -140px -70px !important;
+}
+a[href|='#wendyreal'], a[href|='#rwendyreal']
+{
+    background-position: -210px -70px !important;
+}
+
+a[href|='#wendylight'], a[href|='#rwendylight']
+{
+    background-position: 0px -560px !important;
+}
+
+a[href|='#wendylight']:hover
+{
+    background-position: -70px -560px !important;
+}
+
+a[href|='#udabest'], a[href|='#rudabest']
+{
+    background-position: -210px -560px !important;
+    border: none;
+    box-shadow: none;
+}
+
+a[href|='#billtbgf'], a[href|='#rbilltbgf']
+{
+    background-position: 0px -630px !important;
+    border: none;
+    box-shadow: none;
+}
+a[href|='#stanbucks'], a[href|='#rstanbucks']
+{
+    background-position: -70px -630px !important;
+    border: none;
+    box-shadow: none;
+}
+a[href|='#blindeye'], a[href|='#rblindeye']
+{
+    background-position: -140px -630px !important;
+    border: none;
+    box-shadow: none;
+}
+a[href|='#extroar'], a[href|='#rextroar']
+{
+    background-position: -210px -630px !important;
+    border: none;
+    box-shadow: none;
+}
