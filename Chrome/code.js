@@ -27,13 +27,14 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://j-co.ga/BetterGFMotesDB/css/CaesarForMe.css';
+    link.href = 'https://j-co.ga/BetterGFMotesDB/css/emotes.css';
     link.media = 'all';
     head.appendChild(link);
 }
 
 //var BetterGFMotesBTN = document.getElementById('intro');
 
-<link rel="stylesheet" type="text/css" href="https://j-co.ga/BetterGFMotesDB/css/CaesarForMe.css"/>
+//<link rel="stylesheet" type="text/css" href="https://j-co.ga/BetterGFMotesDB/css/CaesarForMe.css"/>
     
-    <p style="font-family: CaesarForMe">Kl</p>
+// Add this into an element of test to test font additions:
+// <p style="font-family:CaesarForMe;">Kl</p>
