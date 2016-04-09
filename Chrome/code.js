@@ -27,7 +27,7 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'https://j-co.ga/BetterGFMotesDB/css/emotes.css';
+    link.href = 'https://j-co.ga/BetterGFMotesDB/css/fonts.css';
     link.media = 'all';
     head.appendChild(link);
 }
