@@ -9,7 +9,7 @@
       "default_title": "Emote List"
    },
    "content_scripts": [ {
-      "css": [ "emotes.css", "modifiers.css", "spoilers.css" ],
+      "css": [ "emotes.css", "modifiers.css", "spoilers.css", "fonts.css" ],
       "js": [ "code.js" ],
       "matches": [ "https://www.reddit.com/*", "https://voat.co/*" ]
    } ],

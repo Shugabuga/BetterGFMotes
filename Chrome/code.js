@@ -27,9 +27,13 @@ if (!document.getElementById(cssId))
     link.id   = cssId;
     link.rel  = 'stylesheet';
     link.type = 'text/css';
-    link.href = 'http://j-co.ga/BetterGFMotes/emotes.css';
+    link.href = 'https://j-co.ga/BetterGFMotesDB/css/CaesarForMe.css';
     link.media = 'all';
     head.appendChild(link);
 }
 
 //var BetterGFMotesBTN = document.getElementById('intro');
+
+<link rel="stylesheet" type="text/css" href="https://j-co.ga/BetterGFMotesDB/css/CaesarForMe.css"/>
+    
+    <p style="font-family: CaesarForMe">Kl</p>
