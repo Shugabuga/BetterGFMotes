@@ -1,16 +1,37 @@
-/* var BetterGFMotesBTN = document.createElement("BUTTON"); //Create button
+// My code
 
-BetterGFMotesBTN.setAttribute("id", "BetterGFMotesBTN"); // Set button ID
+var BetterGFMotesSelectScreen = document.createElement("IFRAME");
+BetterGFMotesSelectScreen.setAttribute("src", "https://j-co.ga/BetterGFMotes/Preview/index.html");
+BetterGFMotesSelectScreen.setAttribute("width", "400px");
+BetterGFMotesSelectScreen.setAttribute("height", "500px");
+BetterGFMotesSelectScreen.setAttribute("id", "BetterGFMotesSelectScreen")
+BetterGFMotesSelectScreen.setAttribute("class", "BetterGFMotesSelectScreen")
+document.body.appendChild(BetterGFMotesSelectScreen);
+
+/*
+var BetterGFMotesBTN = document.createElement("BUTTON"); //Create button
+
+BetterGFMotesBTN.setAttribute("id", "BetterGFMotesBTN");
+BetterGFMotesBTN.setAttribute("class", "BetterGFMotesBTN");// Set button ID
 BetterGFMotesBTN.setAttribute("style", "position:absolute;z-index:102128917297"); // Set CSS
-BetterGFMotesBTN.setAttribute("onClick", "alert('hOI')"); // Set code to run on button click
+BetterGFMotesBTN.setAttribute("onClick", ""); // Set code to run on button click
 
 var BetterGFMotesBTNt = document.createTextNode("jda3GFMotes"); // Set button label
 
 BetterGFMotesBTN.appendChild(BetterGFMotesBTNt); // Actually adds button label from above ^
 document.body.appendChild(BetterGFMotesBTN); //Add button to body
-``
+
+*/
+
+$( "#BetterGFMotesSelectScreen" ).draggable();
+$( "#BetterGFMotesSelectScreen" ).resizable();
+
+//$( "#BetterGFMotesBTN" ).draggable();
+
 //var divs = document.getElementsByTagName("BetterGFMotesBTN");
-BetterGFMotesBTN.parentNode.insertBefore(BetterGFMotesBTN, header); // Choose location where button will go
+//BetterGFMotesBTN.parentNode.insertBefore(BetterGFMotesBTN, header); // Choose location where button will go
+
+
 
 //some BetterPonyMotes code that injects code into Reddit?
 
@@ -18,7 +39,9 @@ BetterGFMotesBTN.parentNode.insertBefore(BetterGFMotesBTN, header); // Choose lo
 
 //document.getElementsByClassName("usertext-buttons") = "Hello World!";
 
-*/
+
+
+/*
 var cssId = 'myCss'; 
 if (!document.getElementById(cssId))
 {
@@ -30,7 +53,28 @@ if (!document.getElementById(cssId))
     link.href = 'https://j-co.ga/BetterGFMotesDB/css/fonts.css';
     link.media = 'all';
     head.appendChild(link);
-}
+} */
+
+//<iframe style="display: inline-block" marginheight="0px" hspace="0" vspace="0" marginwidth="0px" frameBorder="0" height="500" width="400" src="https://j-co.ga/BetterGFMotes/Preview/index.html"></iframe>
+
+
+
+
+/*
+var BetterGFMotesBTN = document.createElement("iframe"); //Create button
+
+BetterGFMotesBTN.setAttribute("id", "BetterGFMotesBTN"); // Set button ID
+BetterGFMotesBTN.setAttribute("style", "position:absolute;z-index:102128917297"); // Set CSS
+BetterGFMotesBTN.setAttribute("src", "http://google.com"); // Set code to run on button click
+BetterGFMotesBTN.setAttribute("width", "400px");
+BetterGFMotesBTN.setAttribute("height", "500px");
+*/
+// var BetterGFMotesBTNt = document.createTextNode("jda3GFMotes"); // Set button label
+
+// BetterGFMotesBTN.appendChild(BetterGFMotesBTNt); // Actually adds button label from above ^
+//document.body.appendChild(BetterGFMotesBTN); //Add button to body
+//BetterGFMotesBTN.parentNode.insertBefore(BetterGFMotesBTN, header);
+
 
 //var BetterGFMotesBTN = document.getElementById('intro');
 
