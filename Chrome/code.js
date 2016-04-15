@@ -87,3 +87,58 @@ script.parentNode.removeChild(script);
 var BetterGFMotesFrame = document.getElementById('BetterGFMotesSelectScreen');
 
 BetterGFMotesFrame.contentWindow.postMessage(BetterGFMotesDisableSelectScreen(), '*');
+
+
+//Settings apply (Debug mode) [FIX, not pulling values correctly.] [IF Statement seems to be fine]
+
+//function getUserPrefs() {
+//    chrome.storage.sync.get('likesColor');
+//}
+
+//chrome.storage.sync.get({
+//    likesColor: false
+//  });
+
+//var BetterGFMotesDebugMode = true;
+//chrome.storage.sync.get({ 
+//    likesColor: true
+//}, function(items) {
+//    BetterGFMotesDebugMode = items.likesColor;
+//});
+
+//function restore_options() {
+//  chrome.storage.sync.get({
+//    likesColor: false
+//  });
+//}
+
+//document.addEventListener('DOMContentLoaded', restore_options);
+
+var BetterGFMotesDebugMode = false
+
+chrome.storage.sync.get("likesColor", function(result) {
+    var BetterGFMotesDebugMode = result["likesColor"];
+});
+
+if (BetterGFMotesDebugMode = true) {
+    //alert("Enabled") //DEBUG
+    //BetterGFMotesSelectScreen.setAttribute("style", "z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
+} else {
+    //alert("Disabled") //DEBUG
+    //BetterGFMotesSelectScreen.setAttribute("style", "display:none;z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
+}
+
+// End Settings Apply (the broken part, that is!) 
+
+var cssId = 'BetterGFMotesFonts'; 
+if (!document.getElementById(cssId))
+{
+    var head  = document.getElementsByTagName('head')[0];
+    var link  = document.createElement('link');
+    link.id   = cssId;
+    link.rel  = 'stylesheet';
+    link.type = 'text/css';
+    link.href = 'http://j-co.ga/BetterGFMotesDB/css/fonts.css';
+    link.media = 'all';
+    head.appendChild(link);
+}

@@ -1,8 +1,8 @@
-/* BetterGFMotes Modifier CSS (Most Modifiers are BETA)
+/* BetterGFMotes Modifier CSS
  
  Also known as: WeridmageddonScript
  
- a[href^="#"][href$="-FLAG"],a[href^="#"][href$="-FLAG"],body:lang(bc) a[href^="#"][href$="-FLAG"],body:lang(bc) a[href^="#"][href$="-FLAG"] {
+ a[href^="#"][href*="-FLAG"],a[href^="#"][href*="-FLAG"],body:lang(bc) a[href*="#"][href*="-FLAG"],body:lang(bc) a[href^="#"][href*="-FLAG"] {
  **CSS**!important;
  }
  
@@ -141,6 +141,14 @@ a[href|="#papyrus"],a[href|="#papyrus"],body:lang(bc) a[href|="#papyrus"],body:l
 
 a[href|="#sans"],a[href|="#sans"],body:lang(bc) a[href|="#sans"],body:lang(bc) a[href|="#sans"] {
     font-family: "Comic Sans MS", fantasy!important;
+    color: black!important;
+    cursor: text;
+
+}
+
+
+a[href|="#cipher"],a[href|="#cipher"],body:lang(bc) a[href|="#cipher"],body:lang(bc) a[href|="#cipher"] {
+    font-family: CaesarForMe!important;
     color: black!important;
     cursor: text;
 
@@ -423,7 +431,7 @@ z-index: 3;
 
 /* /r/TakeBackGravityFalls's retro photo borders. We have permission from the moderators to do this, please ask them before using this in your projects. */
 
-a[href^="#"][href$="-p"],a[href^="#"][href*="-p"],body:lang(bc) a[href^="#"][href*="-p"],body:lang(bc) a[href^="#"][href*="-p"] {
+a[href^="#"][href$="-photo"],a[href^="#"][href*="-photo"],body:lang(bc) a[href^="#"][href*="-photo"],body:lang(bc) a[href^="#"][href*="-photo"] {
   margin: 2px 5px 2px 2px;
   border-width: 3px 3px 10px 3px;
   border-color: #F2F2F2;
@@ -472,10 +480,22 @@ a[href^='#'][href*='-slide'] {
     /* width: 20%; */
 }
 
-a[href^='#'][href*='-w'] {
+a[href^='#'][href*='-wobble'] {
+    animation: bettergfmotes-wobble 2s infinite alternate linear;
+}
+
+a[href^='#'][href*='-rock'] {
     animation: bettergfmotes-wobble 2s infinite alternate linear;
 }
 
 a[href^='#'][href*='-spin'] {
     animation: bettergfmotes-spin 2s infinite linear;
 }
+
+ a[href^="#"][href*="-d"]::hover,a[href^="#"][href*="-d"]::hover,body:lang(bc) a[href*="#"][href*="-d"]::hover,body:lang(bc) a[href^="#"][href*="-d"] {
+ -moz-transform: scale(-1, 1)!important;
+-webkit-transform: scale(-1, 1)!important;
+-o-transform: scale(-1, 1)!important;
+-ms-transform: scale(-1, 1)!important;
+transform: scale(-1, 1);!important;
+ }
