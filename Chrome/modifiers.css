@@ -389,7 +389,7 @@ width: 100%;
 z-index: 3;
 }
 
-a[href^='#'][href*='-rainbowsparkle']::before{
+a[href^='#'][href*='-supersparkle']::before{
 content:" ";
 background: url(https://d.thumbs.redditmedia.com/mH_TxiA3cOLCSwMQ.png) scroll;
 display: block;

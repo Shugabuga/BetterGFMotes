@@ -4,6 +4,27 @@
 /* The emotes below are exclusive to BetterGFMotes. */
 
 
+a[href|="#franz"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/franz.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#franzmad"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/franzmad.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+a[href|="#franzidea"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/franzidea.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
 a[href|="#evilfresh"] {
     background: url(https://j-co.ga/BetterGFMotesDB/evilfresh.png) no-repeat;
     width: 70px;
