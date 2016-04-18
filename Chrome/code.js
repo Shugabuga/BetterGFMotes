@@ -14,6 +14,7 @@
 ///////////////////////////////////////////////////////////////////
 
 // Debug menu
+var BetterGFMotesAddToDiv = function() {
 
 var BetterGFMotesDebugMenu = document.createElement("div");
 BetterGFMotesDebugMenu.setAttribute("id", "BetterGFMotesDebugMenu")
@@ -59,7 +60,7 @@ var BetterGFMotesDebugEnable = function() { BetterGFMotesDebugMenu.setAttribute(
 
 var BetterGFMotesDebugDisable = function() { BetterGFMotesDebugMenu.setAttribute("style", "display:none;z-index:392639629361637816;border-style: solid;background-color: #139180; border-width: 5px; border-color: #139180;position:fixed;left: 600px; top: 50px;")  };
 
-//BetterGFMotesDebugEnable(); // Loads up Debug / Beta Mode
+BetterGFMotesDebugEnable(); // Loads up Debug / Beta Mode
 
 // BetterGFMotesEnableSelectScreen(); // We're not going to load it up now, but it can be loaded up if you want!
 
@@ -88,6 +89,7 @@ var BetterGFMotesFrame = document.getElementById('BetterGFMotesSelectScreen');
 
 BetterGFMotesFrame.contentWindow.postMessage(BetterGFMotesDisableSelectScreen(), '*');
 
+}
 
 //Settings apply (Debug mode) [FIX, not pulling values correctly.] [IF Statement seems to be fine]
 
@@ -114,6 +116,8 @@ BetterGFMotesFrame.contentWindow.postMessage(BetterGFMotesDisableSelectScreen(),
 
 //document.addEventListener('DOMContentLoaded', restore_options);
 
+//BetterGFMotesAddToDiv() // Call this function to load beta stuff.
+
 var BetterGFMotesDebugMode = false
 
 chrome.storage.sync.get("likesColor", function(result) {
@@ -130,15 +134,3 @@ if (BetterGFMotesDebugMode = true) {
 
 // End Settings Apply (the broken part, that is!) 
 
-var cssId = 'BetterGFMotesFonts'; 
-if (!document.getElementById(cssId))
-{
-    var head  = document.getElementsByTagName('head')[0];
-    var link  = document.createElement('link');
-    link.id   = cssId;
-    link.rel  = 'stylesheet';
-    link.type = 'text/css';
-    link.href = 'http://j-co.ga/BetterGFMotesDB/css/fonts.css';
-    link.media = 'all';
-    head.appendChild(link);
-}

@@ -4,6 +4,14 @@
 /* The emotes below are exclusive to BetterGFMotes. */
 
 
+a[href|="#heyyoutbgf"] { /* This emote is from /r/TakeBackGravityFalls, but made by me (HeyItsShuga)! */
+    background: url(https://j-co.ga/BetterGFMotesDB/heyyoutbgf.png) no-repeat;
+    width: 70px;
+    height: 70px;
+    display: block;
+    float: left
+}
+
 a[href|="#franz"] {
     background: url(https://j-co.ga/BetterGFMotesDB/franz.png) no-repeat;
     width: 70px;
