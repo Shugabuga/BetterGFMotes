@@ -22,6 +22,5 @@
    "manifest_version": 2,
    "name": "BetterGFMotes",
    "permissions": [ "storage", "tabs", "https://*.reddit.com/*", "https://*.voat.co/*", "https://*.discordapp.com/*" ],
-   "version": "0.6.0",
-   "options_page": "settings.html"
+   "version": "0.6.0"
 }

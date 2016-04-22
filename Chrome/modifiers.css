@@ -1,15 +1,15 @@
 /* BetterGFMotes Modifier CSS
- 
+
  Also known as: WeridmageddonScript
- 
+
  a[href^="#"][href*="-FLAG"],a[href^="#"][href*="-FLAG"],body:lang(bc) a[href*="#"][href*="-FLAG"],body:lang(bc) a[href^="#"][href*="-FLAG"] {
  **CSS**!important;
  }
- 
+
  a[href|="#FLAG"],a[href|="#FLAG"],body:lang(bc) a[href|="#FLAG"],body:lang(bc) a[href|="#FLAG"] {
  CSS
  }
- 
+
 NOTE: use *BOTH* -webkit-filter for Chrome and filter for Firefox.
 
 
@@ -75,6 +75,26 @@ a[href|="#red"],a[href|="#red"],body:lang(bc) a[href|="#red"],body:lang(bc) a[hr
     cursor: text;
 
 }
+a[href|="#black"],a[href|="#black"],body:lang(bc) a[href|="#black"],body:lang(bc) a[href|="#black"] {
+    color: black!important;
+    cursor: text;
+
+}
+a[href|="#txt"],a[href|="#txt"],body:lang(bc) a[href|="#txt"],body:lang(bc) a[href|="#txt"] {
+    color: black!important;
+    cursor: text;
+
+}
+a[href|="#magenta"],a[href|="#magenta"],body:lang(bc) a[href|="#magenta"],body:lang(bc) a[href|="#magenta"] {
+    color: magenta!important;
+    cursor: text;
+
+}
+a[href|="#white"],a[href|="#white"],body:lang(bc) a[href|="#white"],body:lang(bc) a[href|="#white"] {
+    color: white!important;
+    cursor: text;
+
+}
 a[href|="#blue"],a[href|="#blue"],body:lang(bc) a[href|="#blue"],body:lang(bc) a[href|="#blue"] {
     color: blue!important;
     cursor: text;
@@ -119,6 +139,71 @@ a[href|="#cyan"],a[href|="#cyan"],body:lang(bc) a[href|="#cyan"],body:lang(bc) a
     color: cyan!important;
     cursor: text;
 }
+
+/* Text ports from BetterPonyMotes (subreddit source listed) */
+
+/************************************************************************************\
+/* NOTE: This is not a documented feature, but it's there so non-BPM users can      *\
+/* see colored text that would normally show up as a hyperlink, and that's no good. *\
+/* One other thing: It works like it does with BPM, meaning that it uses the slash  *\
+/* emote identifer. This causes the text to be unanimatable (with tags like         *\
+/* -intensifies) and may bypass the anti-click features. If you want to use         *\
+/* modifiers with your text and to have full support, use the documented ones.      *\
+/*                                                                                  *\
+/*          Also, credit goes to the moderators of the listed subreddits.           *\
+/*                                                                                  *\
+/************************************************************************************\
+
+/* /r/MyLittleAndySonic1 */
+
+a[href|="/white!"]:nth-of-type(n) { color: white !important; cursor: text !important; background-color: black !important }
+a[href|="/orange!"]:nth-of-type(n) { color: orange !important; cursor: text !important }
+a[href|="/green!"]:nth-of-type(n) { color: green !important; cursor: text !important }
+a[href|="/greentext!"]:nth-of-type(n) { color: rgb(120,153,34) !important; cursor: text !important }
+a[href|="/purple!"]:nth-of-type(n) { color: purple !important; cursor: text !important }
+a[href|="/yellow!"]:nth-of-type(n) { color: gold !important; cursor: text !important }
+a[href|="/pink!"]:nth-of-type(n) { color: fuchsia !important; cursor: text !important }
+a[href|="/blue!"]:nth-of-type(n) { color: blue !important; cursor: text !important }
+a[href|="/red!"]:nth-of-type(n) { color: red !important; cursor: text !important }
+a[href|="/big!"]:nth-of-type(n) { color: red !important; font-size: 50px !important; font-weight: bold; cursor: text !important }
+a[href|="/txt!"]:nth-of-type(n) { color: inherit !important; cursor: text !important }
+a[href|="/zecora!"]:nth-of-type(n) { color: rgb(255,255,255) !important; cursor: text !important; background-color: rgb(105,105,120) !important }
+a[href|="/applejack!"]:nth-of-type(n) { color: #e56522 !important; cursor: text !important; background-color: #ffc97b !important }
+a[href|="/pinkie!"]:nth-of-type(n) { color: #c10064 !important; cursor: text !important; background-color: #f8c0ce !important }
+a[href|="/rainbow!"]:nth-of-type(n) { color: #971757 !important; cursor: text !important; background-color: #97d6f9 !important }
+a[href|="/rarity!"]:nth-of-type(n) { color: #eef1f3 !important; cursor: text !important; background-color: #49176d !important }
+a[href|="/twilight!"]:nth-of-type(n) { color: #363b74 !important; cursor: text !important; background-color: #caaad1 !important }
+a[href|="/fluttershy!"]:nth-of-type(n) { color: #e57eb3 !important; cursor: text !important; background-color: #fff797 !important }
+a[href|="/luna!"]:nth-of-type(n) { font-size: 18px; font-variant: small-caps !important; cursor: text !important; color: #72b4ff !important; background-color: #18113b !important }
+
+/* /r/MyLittleBannerTest */
+
+a[href|="/tinytxt!"] {
+    font-family: "monospace", "Courier" !important;
+    color: inherit !important;
+    cursor: text !important;
+    font-size: 1px !important;
+    }
+
+a[href|="/pinkhover!"] {
+    color: #000000 !important;
+    cursor: text !important
+    }
+a:hover[href|="/pinkhover!"] {
+    color: #ef4f91 !important;
+    cursor: text !important
+    }
+
+/* /r/surprise, /r/pinkiepie, and /r/mylittlesupportgroup respectively */
+
+a[href|="/surprise!"] { color: #cdcd00 !important; cursor: text !important; background-color: #ffffe7 !important; }
+
+a[href|="/pinkiebig!"]{ color: #c10064 !important; font-size: 20px !important; background-color: #f8c0ce !important; }
+
+a[href|="/spike!"]{color:#363b74 !important;cursor:text !important;background-color:#BDEEA6 !important}
+
+
+/* END BPM ports */
 
 a[href^="#"][href$="-i"],a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href$="-i"],body:lang(bc) a[href^="#"][href*="$i"] {
     -webkit-filter: hue-rotate(180deg)!important;
@@ -240,7 +325,7 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
 /* Spoiler Stuff END */
 
 /* This CSS was written by /u/DoubleDigitIQ! Thank him! */
-@keyframes bettergfmotes-intensify { 
+@keyframes bettergfmotes-intensify {
     0% {
         left: 0px;
         top: 0px;
@@ -263,7 +348,7 @@ a:hover[href|="/spoiler"],a:hover[href|="/spoiler"],body:lang(bc) a:hover[href|=
     }
 }
 
-@-webkit-keyframes bettergfmotes-intensify { 
+@-webkit-keyframes bettergfmotes-intensify {
     0% {
         left: 0px;
         top: 0px;
@@ -435,7 +520,7 @@ a[href^="#"][href$="-photo"],a[href^="#"][href*="-photo"],body:lang(bc) a[href^=
   margin: 2px 5px 2px 2px;
   border-width: 3px 3px 10px 3px;
   border-color: #F2F2F2;
-  border-style: solid; 
+  border-style: solid;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
@@ -451,7 +536,7 @@ a[href^="#"][href$="-delphoto"],a[href^="#"][href*="-delphoto"],body:lang(bc) a[
   margin: 0px 0px 0px 0px;
   border-width: 0px 0px 0px 0px;
   border-color: transparent;
-  border-style: solid; 
+  border-style: solid;
   -webkit-box-shadow: 0px 0px 0px transparent;
   -moz-box-shadow: 0px 0px 0px transparent;
   box-shadow: 0px 0px 0px transparent;
