@@ -1132,6 +1132,53 @@ a[href|="#joaje"] {
     display: block;
     float: left
 }
+/* /r/BeachCity Gravity Falls emotes. */
+a[href|="#su-joaje"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-joaje.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left
+}
+a[href|="#su-princess"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-princess.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left
+}
+a[href|="#su-dippyfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-dippyfresh.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    display: block;
+    float: left
+}
+
+a[href|="#su-rjoaje"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-joaje.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    transform:rotateY(180deg)!important;
+    display: block;
+    float: left
+}
+a[href|="#su-rprincess"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-princess.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    transform:rotateY(180deg)!important;
+    display: block;
+    float: left
+}
+a[href|="#su-rdippyfresh"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/su-dippyfresh.png) no-repeat;
+    width: 60px;
+    height: 60px;
+    transform:rotateY(180deg)!important;
+    display: block;
+    float: left
+}
 
 /* The emotes below are from /r/gravityfalls as of Feburary 2016. I *think* everything is stable. */
 
@@ -1660,11 +1707,11 @@ a[href|="#blendin"],
 a[href|="#rblendin"] { background-position: -210px -560px!important }
 a[href|="#dippyfresh"],
 a[href|="#rdippyfresh"] { background-position: 0px -630px!important }
-@keyframes billHands { 
+@keyframes billHands {
     from { background-position: -210px -280px }
     to { background-position: -350px -280px }
 }
-@-webkit-keyframes billHands { 
+@-webkit-keyframes billHands {
     from { background-position: -210px -280px }
     to { background-position: -350px -280px }
 }
@@ -1688,12 +1735,12 @@ a[href|="#rlotsofthings"] {
     -webkit-animation: bill 3s infinite;
     animation: bill 3s infinite;
 }
-@keyframes bill { 
+@keyframes bill {
     0% { transform: translate(0px,-2px) }
     50% { transform: translate(0px,2px) }
     100% { transform: translate(0px,-2px) }
 }
-@-webkit-keyframes bill { 
+@-webkit-keyframes bill {
     0% { -webkit-transform: translate(0px,-2px) }
     50% { -webkit-transform: translate(0px,2px) }
     100% { -webkit-transform: translate(0px,-2px) }
@@ -1740,18 +1787,17 @@ a[href|="#rwander"] { background-position: 0px -210px!important }
 a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a[href|='#dipper'], a[href|='#dipdoh'], a[href|='#wendyup'], a[href|='#wendyreal'],a[href|='#wendylight'], a[href|='#udabest'], a[href|='#billtbgf'], a[href|='#stanbucks'], a[href|='#blindeye'], a[href|='#extroar']
 {
   width:70px !important;
-  height:70px !important; 
+  height:70px !important;
   display: block;
   clear: none;
   float: left;
   background-image: url(https://j-co.ga/BetterGFMotesDB/TakeBackGravityFallsSpritesheet.png) !important;
-  cursor:default;   
- /* Picture frame
+  cursor:default;
   color:transparent;
   margin: 2px 5px 2px 2px;
   border-width: 3px 3px 10px 3px;
   border-color: #F2F2F2;
-  border-style: solid; 
+  border-style: solid;
   -webkit-transform: rotate(1deg);
   -moz-transform: rotate(1deg);
   -ms-transform: rotate(1deg);
@@ -1760,13 +1806,12 @@ a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a
   -webkit-box-shadow: 1px 1px 2px black;
   -moz-box-shadow: 1px 1px 2px black;
   box-shadow: 1px 1px 2px black;
-    */
 }
 
 a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'], a[href|='#rdipper'], a[href|='#rdipdoh'], a[href|='#rwendyup'], a[href|='#rwendyreal'], a[href|='##wendylight'], a[href|='#rudabest'] a[href|='#rbilltbgf'], a[href|='#rstanbucks'], a[href|='#rblindeye'], a[href|='#rextroar']
 {
-  width:70px !important; 
-  height:70px !important; 
+  width:70px !important;
+  height:70px !important;
   display: block;
   clear: none;
   float: left;
@@ -1774,21 +1819,19 @@ a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'
   transform: rotateY(180deg);
   background-image: url(https://j-co.ga/BetterGFMotesDB/TakeBackGravityFallsSpritesheet.png) !important;
   cursor:default;
-  /* Picture frame
   color:transparent;
   margin: 2px 5px 2px 2px;
   -webkit-transform: scaleX(-1) rotate(1deg);
-  -moz-transform: scaleX(-1) rotate(1deg); 
+  -moz-transform: scaleX(-1) rotate(1deg);
   -ms-transform: scaleX(-1) rotate(1deg);
   -o-transform: scaleX(-1) rotate(1deg);
   transform: scaleX(-1) rotate(1deg);
-  border-width: 3px 3px 10px 3px; 
-  border-color: #F2F2F2; 
+  border-width: 3px 3px 10px 3px;
+  border-color: #F2F2F2;
   border-style: solid;
   -webkit-box-shadow: -1px 1px 2px black;
   -moz-box-shadow: -1px 1px 2px black;
   box-shadow: -1px 1px 2px black;
-    */
 }
 
 a[href|='#mabeltbgf'], a[href|='#rmabeltbgf']

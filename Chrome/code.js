@@ -102,7 +102,7 @@ BetterGFMotesFrame.contentWindow.postMessage(BetterGFMotesDisableSelectScreen(),
 //  });
 
 //var BetterGFMotesDebugMode = true;
-//chrome.storage.sync.get({ 
+//chrome.storage.sync.get({
 //    likesColor: true
 //}, function(items) {
 //    BetterGFMotesDebugMode = items.likesColor;
@@ -116,21 +116,48 @@ BetterGFMotesFrame.contentWindow.postMessage(BetterGFMotesDisableSelectScreen(),
 
 //document.addEventListener('DOMContentLoaded', restore_options);
 
+//chrome.storage.sync.get("likesColor", function(result) {
+//    var BetterGFMotesDebugMode = result["likesColor"];
+//});
+
+//BetterGFMotesDebugMode = chrome.storage.sync.get["mysetting"];
+
+//chrome.storage.sync.get({
+//    BetterGFMotesDebugMode: BetterGFMotesDebugMode
+//  });
+
+
 //BetterGFMotesAddToDiv() // Call this function to load beta stuff.
 
 var BetterGFMotesDebugMode = false
 
-chrome.storage.sync.get("likesColor", function(result) {
-    var BetterGFMotesDebugMode = result["likesColor"];
-});
 
-if (BetterGFMotesDebugMode = true) {
-    //alert("Enabled") //DEBUG
-    //BetterGFMotesSelectScreen.setAttribute("style", "z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
-} else {
-    //alert("Disabled") //DEBUG
-    //BetterGFMotesSelectScreen.setAttribute("style", "display:none;z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
-}
 
-// End Settings Apply (the broken part, that is!) 
+// if (BetterGFMotesDebugMode = true) {
+//     BetterGFMotesAddToDiv(); //Does all of the stuff in the BetterGFMotesAddToDiv() function.
+//     console.log("BetterGFMotes: Beta Mode ENABLED. Disable it in settings!")
+//     //alert("Enabled") //DEBUG
+//     //BetterGFMotesSelectScreen.setAttribute("style", "z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
+// } else {
+//     console.log("BetterGFMotes: Beta Mode DISABLED. Enable it in settings!")
+//     //alert("Disabled") //DEBUG
+//     //BetterGFMotesSelectScreen.setAttribute("style", "display:none;z-index:392639629361637816;border-style: solid; border-width: 5px; border-color: #139180;position:fixed;")
+// }
 
+// From MLE: Well, this may be useful someday (adds button?)
+/*
+
+
+			var d = document
+			var textareas = d.querySelectorAll( '.help-toggle' );
+
+			for( var i = 0; i < textareas.length; i++ ) {
+				var ta = textareas[i];
+
+				var button = d.createElement( 'button' );
+				button.className = 'BetterGFMotesOpenButton';
+				button.type = 'BetterGFMotesOpenButton';
+				button.textContent = 'BetterGFMotes';
+				button.addEventListener( 'click', mainContainerShow, false );
+
+*/

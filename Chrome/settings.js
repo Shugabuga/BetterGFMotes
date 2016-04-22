@@ -1,8 +1,8 @@
 // Saves options to chrome.storage
 function save_options() {
-  var likesColor = document.getElementById('debugModeToggle').checked;
+  var BetterGFMotesDebugMode = document.getElementById('debugModeToggle').checked;
   chrome.storage.sync.set({
-    likesColor: likesColor
+    BetterGFMotesDebugMode: BetterGFMotesDebugMode
   }, function() {
     var status = document.getElementById('status');
     status.textContent = 'Saved!';
@@ -16,9 +16,9 @@ function save_options() {
 // stored in chrome.storage.
 function restore_options() {
   chrome.storage.sync.get({
-    likesColor: false
+    BetterGFMotesDebugMode: false
   }, function(items) {
-    document.getElementById('debugModeToggle').checked = items.likesColor;
+    document.getElementById('debugModeToggle').checked = items.BetterGFMotesDebugMode;
   });
 }
 document.addEventListener('DOMContentLoaded', restore_options);
