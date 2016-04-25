@@ -3,7 +3,6 @@
   <head>
     <script>
 var demoToggle = document.getElementById("demo");
-var demoF = function() { demoToggle.setAttribute("style", "display:visible") }
     </script>
     <link rel="chrome-webstore-item" href="https://chrome.google.com/webstore/detail/biejbmijmlhaaafdfbpngiflnpjhipco">
     <meta charset="UTF-8">
@@ -22,7 +21,7 @@ var demoF = function() { demoToggle.setAttribute("style", "display:visible") }
       <a href="https://github.com/Shugabuga/BetterGFMotes" class="btn">View on GitHub</a>
       <a href="#" onclick="chrome.webstore.install()" id="install-link" class="btn">Download for Chrome</a>
       <a href="https://addons.mozilla.org/en-US/firefox/addon/bettergfmotes/" id="install-moz" class="btn">Download for Firefox</a>
-      <a href="#" onclick="demoF()" id="demo-btm" class="btn">Demo</a>
+      <a href="#" onclick='demoToggle.setAttribute("style", "display:visible")' id="demo-btm" class="btn">Demo</a>
     <!-- Demo -->
     <center><object style="display:none;" id=demo data="http://j-co.ga/BetterGFMotesDB/webApp/" width="400px" height="600px">
     <embed src="http://j-co.ga/BetterGFMotesDB/webApp/" width="100%" height="100%"> </embed>
