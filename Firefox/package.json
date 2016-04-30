@@ -1,0 +1,16 @@
+{
+  "title": "BetterGFMotes",
+  "name": "bettergfmotes",
+  "version": "0.6.0",
+  "description": "Adds additional emotes to /r/gravityfalls and allows you to see them across Reddit.",
+  "main": "index.js",
+  "author": "HeyItsShuga",
+  "engines": {
+    "firefox": ">=38.0a1",
+    "fennec": ">=38.0a1"
+  },
+  "license": "More Information Coming Soon",
+  "keywords": [
+    "jetpack"
+  ]
+}
