@@ -32,8 +32,8 @@ a[href|="#evilfresh2"] {
     display: block;
     float: left
 }
-a[href|="#heyyou"] {
-    background: url(https://j-co.ga/BetterGFMotesDB/heyyou.png) no-repeat;
+a[href|="#heyyou2"] {
+    background: url(https://j-co.ga/BetterGFMotesDB/heyyou2.png) no-repeat;
     width: 55px;
     height: 70px;
     display: block;
@@ -1777,7 +1777,7 @@ a[href|="#rwander"] { background-position: 0px -210px!important }
 /* /r/TakeBackGravityFalls has allowed us to use their emotes. Here they are (some changed because of conflicts). Please inform the moderators of the subreddit before using these, as they don't allow distribution of this information. */
 
 
-a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a[href|='#dipper'], a[href|='#dipdoh'], a[href|='#wendyup'], a[href|='#wendyreal'], a[href|='#dipswitch'], a[href|='#cheapskate'], a[href|='#dogman'], a[href|='#evilfresh'], a[href|='#soossad'], a[href|='#billtime'], a[href|='#theauthors'], a[href|='#mcgucket'], a[href|='#fraud'], a[href|='#alexwho'], a[href|='#youdip'], a[href|='#wedding'], /*=== FORGET THIS a[href|='#dipmad'],=== DONE HERE*/ a[href|='#soosgasp'], a[href|='#dippyfresh'], a[href|='#wendisappoint'], /*=== FORGET THIS a[href|='#dippergross'], a[href|='#indianadipper'],=== DONE HERE*/ a[href|='#ladiesman'], a[href|='#journal3'], a[href|='#mabelid'], a[href|='#dipid'], a[href|='#journal1'], a[href|='#journal2'], a[href|='#wendylight'], a[href|='#heyyou'], a[href|='#udabest'], a[href|='#bill'], a[href|='#stanbucks'], a[href|='#blindeye'], a[href|='#extroar']
+a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a[href|='#dipper'], a[href|='#dipdoh'], a[href|='#wendyup'], a[href|='#wendyreal'], a[href|='#dipswitch'], a[href|='#cheapskate'], a[href|='#dogman'], a[href|='#evilfresh'], a[href|='#soossad'], a[href|='#billtime'], a[href|='#theauthors'], a[href|='#mcgucket'], a[href|='#fraud'], a[href|='#alexwho'], a[href|='#youdip'], a[href|='#wedding'], /*=== FORGET THIS a[href|='#dipmad'],=== DONE HERE*/ a[href|='#soosgasp'], a[href|='#dippyfresh'], a[href|='#wendisappoint'], /*=== FORGET THIS a[href|='#dippergross'], a[href|='#indianadipper'],=== DONE HERE*/ a[href|='#ladiesman'], a[href|='#journal3tbgf'], a[href|='#mabelid'], a[href|='#dipid'], a[href|='#journal1tbgf'], a[href|='#journal2tbgf'], a[href|='#wendylight'], a[href|='#heyyou'], a[href|='#udabest'], a[href|='#bill'], a[href|='#stanbucks'], a[href|='#blindeye'], a[href|='#extroar']
 {
   width:70px !important;
   height:70px !important;
@@ -1801,7 +1801,7 @@ a[href|='#mabeltbgf'], a[href|='#mayhog'], a[href|='#stan'], a[href|='#ford'], a
   box-shadow: 1px 1px 2px black;
 }
 
-a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'], a[href|='#rdipper'], a[href|='#rdipdoh'], a[href|='#rwendyup'], a[href|='#rwendyreal'], a[href|='#rdipswitch'], a[href|='#rcheapskate'], a[href|='#rdogman'], a[href|='#revilfresh'], a[href|='#rsoossad'], a[href|='#rbilltime'], a[href|='#rtheauthors'], a[href|='#rmcgucket'], a[href|='#rfraud'], a[href|='#ralexwho'], a[href|='#ryoudip'], a[href|='#rwedding'], /*==== FORGET THIS a[href|='#rdipmad'],=== DONE HERE */ a[href|='#rsoosgasp'], a[href|='#rdippyfresh'], a[href|='#rwendisappoint'], /*==== FORGET THIS a[href|='#rdippergross'], a[href|='#rindianadipper'],=== DONE HERE */ a[href|='#rladiesman'], a[href|='#rjournal3'], a[href|='#rmabelid'], a[href|='#rdipid'], a[href|='#rjournal1'], a[href|='#rjournal2'], a[href|='#rwendylight'], a[href|='#rheyyou'], a[href|='#rudabest'] a[href|='#rbilltbgf'], a[href|='#rstanbucks'], a[href|='#rblindeye'], a[href|='#rextroar']
+a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'], a[href|='#rdipper'], a[href|='#rdipdoh'], a[href|='#rwendyup'], a[href|='#rwendyreal'], a[href|='#rdipswitch'], a[href|='#rcheapskate'], a[href|='#rdogman'], a[href|='#revilfresh'], a[href|='#rsoossad'], a[href|='#rbilltime'], a[href|='#rtheauthors'], a[href|='#rmcgucket'], a[href|='#rfraud'], a[href|='#ralexwho'], a[href|='#ryoudip'], a[href|='#rwedding'], /*==== FORGET THIS a[href|='#rdipmad'],=== DONE HERE */ a[href|='#rsoosgasp'], a[href|='#rdippyfresh'], a[href|='#rwendisappoint'], /*==== FORGET THIS a[href|='#rdippergross'], a[href|='#rindianadipper'],=== DONE HERE */ a[href|='#rladiesman'], a[href|='#rjournal3tbgf'], a[href|='#rmabelid'], a[href|='#rdipid'], a[href|='#rjournal1tbgf'], a[href|='#rjournal2tbgf'], a[href|='#rwendylight'], a[href|='#rheyyou'], a[href|='#rudabest'] a[href|='#rbilltbgf'], a[href|='#rstanbucks'], a[href|='#rblindeye'], a[href|='#rextroar']
 {
   width:70px !important;
   height:70px !important;
@@ -1810,7 +1810,7 @@ a[href|='#rmabeltbgf'], a[href|='#rmayhog'], a[href|='#rstan'], a[href|='#rford'
   float: left;
   -webkit-transform: rotateY(180deg);
   transform: rotateY(180deg);
-  background-image: url(%%asheetEmoteCopy05%%) !important;
+  background-image: url(https://j-co.ga/BetterGFMotesDB/tbgf_spritesheet.png) !important;
   cursor:default;
   color:transparent;
   margin: 2px 5px 2px 2px;
@@ -1952,7 +1952,7 @@ a[href|='#ladiesman'], a[href|='#rladiesman']
     border: none;
     box-shadow: none;
 }
-a[href|='#journal3'], a[href|='#rjournal3']
+a[href|='#journal3tbgf'], a[href|='#rjournal3']
 {
     background-position: -210px -420px !important;
     border: none;
@@ -1970,13 +1970,13 @@ a[href|='#dipid'], a[href|='#rdipid']
     border: none;
     box-shadow: none;
 }
-a[href|='#journal1'], a[href|='#rjournal1']
+a[href|='#journal1tbgf'], a[href|='#rjournal1']
 {
     background-position: -140px -490px !important;
     border: none;
     box-shadow: none;
 }
-a[href|='#journal2'], a[href|='#rjournal2']
+a[href|='#journal2tbgf'], a[href|='#rjournal2']
 {
     background-position: -210px -490px !important;
     border: none;
