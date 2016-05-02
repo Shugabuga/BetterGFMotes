@@ -1,4 +1,6 @@
 clear
+echo  BetteGFMotes - Extension Build Script
+echo ---------------------------------------
 echo Creating WebExtension for Chrome, Opera, and Firefox Betas
 mkdir WebExtension_Gen
 mkdir WebExtension_Gen/css
@@ -46,4 +48,53 @@ cp SelectorImages/ios-desktop.png WebExtension_Gen/images/ios-desktop.png
 cp SelectorImages/iconNoCircle.png WebExtension_Gen/icon.png
 cp SelectorJS/manifest.json WebExtension_Gen/manifest.json
 echo Creating Firefox legacy add-on
-echo Firefox legacy add-on creation failed- Shugabuga, code this now
+mkdir Firefox_Gen
+mkdir Firefox_Gen/data
+mkdir Firefox_Gen/data/css
+mkdir Firefox_Gen/data/lib
+mkdir Firefox_Gen/data/images
+cp EmoteJS/FirefoxSelectorButton.js Firefox_Gen/index.js
+cp EmoteJS/FirefoxPackage.json Firefox_Gen/package.json
+cp EmoteCSS/emotes.css Firefox_Gen/data/emotes.css
+cp EmoteCSS/fonts.css Firefox_Gen/data/fonts.css
+cp EmoteCSS/modifiers.css Firefox_Gen/data/modifiers.css
+cp EmoteCSS/spoilers.css Firefox_Gen/data/spoilers.css
+cp EmoteCSS/SUPERspoilers.css Firefox_Gen/data/SUPERspoilers.css
+cp EmoteJS/code.js Firefox_Gen/data/code.js
+cp EmoteJS/uncode.js Firefox_Gen/data/uncode.js
+cp EmoteJS/settings.js Firefox_Gen/data/settings.js
+cp Libraries/tableActivate.js Firefox_Gen/data/lib/tableActivate.js
+cp Libraries/jquery-ui.js Firefox_Gen/data/lib/jquery-ui.js
+cp Libraries/material.min.js Firefox_Gen/data/lib/material.min.js
+cp Libraries/jquery.js Firefox_Gen/data/lib/jquery.js
+cp Libraries/datatables.min.js Firefox_Gen/data/lib/datatables.min.js
+cp SelectorCSS/datatables.min.css Firefox_Gen/data/css/datatables.min.css
+cp SelectorCSS/icon.css Firefox_Gen/data/css/icon.css
+cp SelectorCSS/material.min.css Firefox_Gen/data/css/material.min.css
+cp SelectorCSS/material.teal-orange.min.css Firefox_Gen/data/css/material.teal-orange.min.css
+cp SelectorCSS/styles.css Firefox_Gen/data/css/styles.css
+cp SelectorCSS/style.css Firefox_Gen/data/css/style.css
+cp SelectorCSS/roboto.css Firefox_Gen/data/css/roboto.css
+cp SelectorHTML/background.html Firefox_Gen/data/background.html
+cp SelectorHTML/credits.html Firefox_Gen/data/credits.html
+cp SelectorHTML/legacyPopup.html Firefox_Gen/data/legacyPopup.html
+cp SelectorHTML/Oldcredits.html Firefox_Gen/data/Oldcredits.html
+cp SelectorHTML/modifiers.html Firefox_Gen/data/modifiers.html
+cp SelectorHTML/popup.html Firefox_Gen/data/popup.html
+cp SelectorHTML/remote.html Firefox_Gen/data/remote.html
+cp SelectorHTML/settings.html Firefox_Gen/data/settings.html
+cp SelectorImages/icon.png Firefox_Gen/data/images/android-desktop.png
+cp SelectorImages/bettergfmotes_static.png Firefox_Gen/data/bettergfmotes_static.png
+cp SelectorImages/bettergfmotes_static.css Firefox_Gen/data/bettergfmotes_static.css
+cp SelectorImages/icon.png Firefox_Gen/data/images/favicon.png
+cp SelectorImages/icon.png Firefox_Gen/data/icon16.png
+cp SelectorImages/icon.png Firefox_Gen/data/icon19.png
+cp SelectorImages/icon.png Firefox_Gen/data/icon48.png
+cp SelectorImages/icon.png Firefox_Gen/data/icon128.png
+cp SelectorImages/icon.png Firefox_Gen/data/joaje.png
+cp SelectorImages/icon.png Firefox_Gen/data/images/user.png
+cp SelectorImages/ios-desktop.png Firefox_Gen/data/images/ios-desktop.png
+cp SelectorImages/iconNoCircle.png Firefox_Gen/data/icon.png
+cp SelectorJS/manifest.json Firefox_Gen/data/manifest.json
+echo Firefox legacy add-on created!
+sleep 2
