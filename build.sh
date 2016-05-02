@@ -1,11 +1,11 @@
 clear
-echo  BetteGFMotes - Extension Build Script
-echo ---------------------------------------
+echo " BetterGFMotes - Extension Build Script"
+echo ----------------------------------------
 echo Creating WebExtension for Chrome, Opera, and Firefox Betas
-mkdir WebExtension_Gen
-mkdir WebExtension_Gen/css
-mkdir WebExtension_Gen/lib
-mkdir WebExtension_Gen/images
+mkdir -p WebExtension_Gen
+mkdir -p WebExtension_Gen/css
+mkdir -p WebExtension_Gen/lib
+mkdir -p WebExtension_Gen/images
 cp EmoteCSS/emotes.css WebExtension_Gen/emotes.css
 cp EmoteCSS/fonts.css WebExtension_Gen/fonts.css
 cp EmoteCSS/modifiers.css WebExtension_Gen/modifiers.css
@@ -45,16 +45,16 @@ cp SelectorImages/icon.png WebExtension_Gen/icon128.png
 cp SelectorImages/icon.png WebExtension_Gen/joaje.png
 cp SelectorImages/icon.png WebExtension_Gen/images/user.png
 cp SelectorImages/ios-desktop.png WebExtension_Gen/images/ios-desktop.png
-cp SelectorImages/iconNoCircle.png WebExtension_Gen/icon.png
+cp SelectorImages/icon.png WebExtension_Gen/icon.png
 cp SelectorJS/manifest.json WebExtension_Gen/manifest.json
 echo Creating Firefox legacy add-on
-mkdir Firefox_Gen
-mkdir Firefox_Gen/data
-mkdir Firefox_Gen/data/css
-mkdir Firefox_Gen/data/lib
-mkdir Firefox_Gen/data/images
-cp EmoteJS/FirefoxSelectorButton.js Firefox_Gen/index.js
-cp EmoteJS/FirefoxPackage.json Firefox_Gen/package.json
+mkdir -p Firefox_Gen
+mkdir -p Firefox_Gen/data
+mkdir -p Firefox_Gen/data/css
+mkdir -p Firefox_Gen/data/lib
+mkdir -p Firefox_Gen/data/images
+cp SelectorJS/FirefoxSelectorButton.js Firefox_Gen/index.js
+cp SelectorJS/FirefoxPackage.json Firefox_Gen/package.json
 cp EmoteCSS/emotes.css Firefox_Gen/data/emotes.css
 cp EmoteCSS/fonts.css Firefox_Gen/data/fonts.css
 cp EmoteCSS/modifiers.css Firefox_Gen/data/modifiers.css
@@ -94,7 +94,10 @@ cp SelectorImages/icon.png Firefox_Gen/data/icon128.png
 cp SelectorImages/icon.png Firefox_Gen/data/joaje.png
 cp SelectorImages/icon.png Firefox_Gen/data/images/user.png
 cp SelectorImages/ios-desktop.png Firefox_Gen/data/images/ios-desktop.png
-cp SelectorImages/iconNoCircle.png Firefox_Gen/data/icon.png
+cp SelectorImages/icon.png Firefox_Gen/data/icon.png
 cp SelectorJS/manifest.json Firefox_Gen/data/manifest.json
+cd Firefox_Gen
+jpm xpi
+cd ..
 echo Firefox legacy add-on created!
 sleep 2
