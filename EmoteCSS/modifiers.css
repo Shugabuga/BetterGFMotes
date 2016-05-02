@@ -970,7 +970,7 @@ a[href^='#'][href*='-135'][href*='-f'][href*='-spin'],a:hover[href^='#'][href*='
 
 /* Begin broken code (FIREFOX)
 
-- Contributers: Don't try to fix this bug, I got it covered! ;)
+- Contributers: Don't try to fix this bug, I got it covered!
 
 Bug Description: -!yspin and other similar modifiers (especially with !exclamation marks don’t work in Firefox.
 (The cause has to do with ‘apostrophes’  and !exclamation marks, so make something like ‘!spin’ into exclamation_spin
@@ -1233,12 +1233,12 @@ a[href^='#'][href*='-r'][href*='-shift']{position:relative;animation:slide-r 8s 
 
 
 /*== -!shift/-!slide ==*/
-@keyframes '!slide'{0%{left:60%;transform:scaleX(-1)}46%{left:0%;transform:scaleX(-1)}50%{left:0%;transform:scaleX(1)}96%{left:60%;transform:scaleX(1)}100%{left:60%;transform:scaleX(-1)}}
-@keyframes '!slide-r'{0%{left:60%;transform:scaleX(1)}46%{left:0%;transform:scaleX(1)}50%{left:0%;transform:scaleX(-1)}96%{left:60%;transform:scaleX(-1)}100%{left:60%;transform:scaleX(1)}}
-a[href^='#'][href*='-!slide']{position:relative;animation:!slide 8s infinite ease}
-a[href^='#'][href*='-r'][href*='-!slide']{position:relative;animation:!slide-r 8s infinite ease}
-a[href^='#'][href*='-!shift']{position:relative;animation:!slide 8s infinite linear}
-a[href^='#'][href*='-r'][href*='-!shift']{position:relative;animation:!slide-r 8s infinite linear}
+@keyframes '_ex_slide'{0%{left:60%;transform:scaleX(-1)}46%{left:0%;transform:scaleX(-1)}50%{left:0%;transform:scaleX(1)}96%{left:60%;transform:scaleX(1)}100%{left:60%;transform:scaleX(-1)}}
+@keyframes '_ex_slide-r'{'0%{left:60%;transform:scaleX(1)}46%{left:0%;transform:scaleX(1)}50%{left:0%;transform:scaleX(-1)}96%{left:60%;transform:scaleX(-1)}100%{left:60%;transform:scaleX(1)}}
+a[href^='#'][href*='-!slide']{position:relative;animation:_ex_slide 8s infinite ease}
+a[href^='#'][href*='-r'][href*='-!slide']{position:relative;animation:_ex_slide-r 8s infinite ease}
+a[href^='#'][href*='-!shift']{position:relative;animation:_ex_slide 8s infinite linear}
+a[href^='#'][href*='-r'][href*='-!shift']{position:relative;animation:_ex_slide-r 8s infinite linear}
 
 /*== speed ==*/
 a[href^='#'][href*='-s1']{animation-duration:1s}
