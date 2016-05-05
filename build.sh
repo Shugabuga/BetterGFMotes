@@ -15,9 +15,11 @@ cp EmoteJS/code.js WebExtension_Gen/code.js
 cp EmoteJS/uncode.js WebExtension_Gen/uncode.js
 cp EmoteJS/settings.js WebExtension_Gen/settings.js
 cp Libraries/tableActivate.js WebExtension_Gen/lib/tableActivate.js
+cp Libraries/tableActivateLite.js WebExtension_Gen/lib/tableActivateLite.js
 cp Libraries/jquery-ui.js WebExtension_Gen/lib/jquery-ui.js
 cp Libraries/material.min.js WebExtension_Gen/lib/material.min.js
 cp Libraries/jquery.js WebExtension_Gen/lib/jquery.js
+cp Libraries/list.min.js WebExtension_Gen/lib/list.min.js
 cp Libraries/datatables.min.js WebExtension_Gen/lib/datatables.min.js
 cp SelectorCSS/datatables.min.css WebExtension_Gen/css/datatables.min.css
 cp SelectorCSS/icon.css WebExtension_Gen/css/icon.css
@@ -27,6 +29,7 @@ cp SelectorCSS/styles.css WebExtension_Gen/css/styles.css
 cp SelectorCSS/style.css WebExtension_Gen/css/style.css
 cp SelectorCSS/roboto.css WebExtension_Gen/css/roboto.css
 cp SelectorHTML/background.html WebExtension_Gen/background.html
+cp SelectorHTML/test.html WebExtension_Gen/test.html
 cp SelectorHTML/credits.html WebExtension_Gen/credits.html
 cp SelectorHTML/legacyPopup.html WebExtension_Gen/legacyPopup.html
 cp SelectorHTML/Oldcredits.html WebExtension_Gen/Oldcredits.html
@@ -64,7 +67,9 @@ cp EmoteJS/code.js Firefox_Gen/data/code.js
 cp EmoteJS/uncode.js Firefox_Gen/data/uncode.js
 cp EmoteJS/settings.js Firefox_Gen/data/settings.js
 cp Libraries/tableActivate.js Firefox_Gen/data/lib/tableActivate.js
+cp Libraries/tableActivateLite.js Firefox_Gen/data/lib/tableActivateLite.js
 cp Libraries/jquery-ui.js Firefox_Gen/data/lib/jquery-ui.js
+cp Libraries/list.min.js Firefox_Gen/data/lib/list.min.js
 cp Libraries/material.min.js Firefox_Gen/data/lib/material.min.js
 cp Libraries/jquery.js Firefox_Gen/data/lib/jquery.js
 cp Libraries/datatables.min.js Firefox_Gen/data/lib/datatables.min.js
@@ -77,6 +82,7 @@ cp SelectorCSS/style.css Firefox_Gen/data/css/style.css
 cp SelectorCSS/roboto.css Firefox_Gen/data/css/roboto.css
 cp SelectorHTML/background.html Firefox_Gen/data/background.html
 cp SelectorHTML/credits.html Firefox_Gen/data/credits.html
+cp SelectorHTML/test.html Firefox_Gen/data/test.html
 cp SelectorHTML/legacyPopup.html Firefox_Gen/data/legacyPopup.html
 cp SelectorHTML/Oldcredits.html Firefox_Gen/data/Oldcredits.html
 cp SelectorHTML/modifiers.html Firefox_Gen/data/modifiers.html
