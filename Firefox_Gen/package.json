@@ -1,16 +1,18 @@
 {
   "title": "BetterGFMotes",
   "name": "bettergfmotes",
-  "version": "0.6.0",
-  "description": "Adds additional emotes to /r/gravityfalls and allows you to see them across Reddit.",
+  "version": "1.0.0",
+  "id": "@bettergfmotes",
+  "description": "Adds additional emotes to /r/gravityfalls and allows you to see them across Reddit and Voat.",
   "main": "index.js",
   "author": "HeyItsShuga",
   "engines": {
     "firefox": ">=38.0a1",
     "fennec": ">=38.0a1"
   },
-  "license": "More Information Coming Soon",
+  "license": "by-nc-sa 4.0",
+  "icon": "resource://@bettergfmotes/data/icon.png",
   "keywords": [
-    "jetpack"
+    "jetpack", "BetterGFMotes", "gravity falls", "reddit", "emotes", "emoticons", "/r/gravityfalls", "/r/takebackgravityfalls", "/r/gravityfallscommunity"
   ]
 }

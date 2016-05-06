@@ -30,6 +30,7 @@ cp SelectorCSS/style.css WebExtension_Gen/css/style.css
 cp SelectorCSS/roboto.css WebExtension_Gen/css/roboto.css
 cp SelectorHTML/background.html WebExtension_Gen/background.html
 cp SelectorHTML/test.html WebExtension_Gen/test.html
+cp SelectorHTML/emotes.html WebExtension_Gen/emotes.html
 cp SelectorHTML/credits.html WebExtension_Gen/credits.html
 cp SelectorHTML/legacyPopup.html WebExtension_Gen/legacyPopup.html
 cp SelectorHTML/Oldcredits.html WebExtension_Gen/Oldcredits.html
@@ -47,6 +48,7 @@ cp SelectorImages/icon.png WebExtension_Gen/icon48.png
 cp SelectorImages/icon.png WebExtension_Gen/icon128.png
 cp SelectorImages/icon.png WebExtension_Gen/joaje.png
 cp SelectorImages/icon.png WebExtension_Gen/images/user.png
+cp SelectorImages/load.gif WebExtension_Gen/images/load.gif
 cp SelectorImages/ios-desktop.png WebExtension_Gen/images/ios-desktop.png
 cp SelectorImages/icon.png WebExtension_Gen/icon.png
 cp SelectorJS/manifest.json WebExtension_Gen/manifest.json
@@ -83,6 +85,7 @@ cp SelectorCSS/roboto.css Firefox_Gen/data/css/roboto.css
 cp SelectorHTML/background.html Firefox_Gen/data/background.html
 cp SelectorHTML/credits.html Firefox_Gen/data/credits.html
 cp SelectorHTML/test.html Firefox_Gen/data/test.html
+cp SelectorHTML/emotes.html Firefox_Gen/data/emotes.html
 cp SelectorHTML/legacyPopup.html Firefox_Gen/data/legacyPopup.html
 cp SelectorHTML/Oldcredits.html Firefox_Gen/data/Oldcredits.html
 cp SelectorHTML/modifiers.html Firefox_Gen/data/modifiers.html
@@ -101,6 +104,7 @@ cp SelectorImages/icon.png Firefox_Gen/data/joaje.png
 cp SelectorImages/icon.png Firefox_Gen/data/images/user.png
 cp SelectorImages/ios-desktop.png Firefox_Gen/data/images/ios-desktop.png
 cp SelectorImages/icon.png Firefox_Gen/data/icon.png
+cp SelectorImages/load.gif Firefox_Gen/data/images/load.gif
 cp SelectorJS/manifest.json Firefox_Gen/data/manifest.json
 cd Firefox_Gen
 jpm xpi
