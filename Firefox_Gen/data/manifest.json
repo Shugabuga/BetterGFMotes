@@ -15,7 +15,7 @@
    },
    "content_scripts": [ {
       "css": [ "emotes.css", "modifiers.css", "fonts.css", "spoilers.css" ],
-      "js": [ "/lib/jquery.js", "/lib/jquery-ui.js", "code.js" ],
+      "js": [ "uncode.js" ],
       "matches": [ "https://*.reddit.com/*", "https://*.voat.co/*", "https://*.discordapp.com/*" ]
    } ],
    "description": "Adds additional emotes to /r/gravityfalls and allows you to view them around Reddit.",

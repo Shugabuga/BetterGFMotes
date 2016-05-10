@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>Author</key>
+	<string>HeyItsShuga</string>
+	<key>Builder Version</key>
+	<string>11601.3.9</string>
+	<key>CFBundleDisplayName</key>
+	<string>BetterGFMotes</string>
+	<key>CFBundleIdentifier</key>
+	<string>ga.heyitsshuga.bettergfmotes.safari</string>
+	<key>CFBundleInfoDictionaryVersion</key>
+	<string>6.0</string>
+	<key>CFBundleShortVersionString</key>
+	<string>1.0</string>
+	<key>CFBundleVersion</key>
+	<string>1</string>
+	<key>Chrome</key>
+	<dict>
+		<key>Database Quota</key>
+		<integer>5242880</integer>
+		<key>Popovers</key>
+		<array>
+			<dict>
+				<key>Filename</key>
+				<string>popup.html</string>
+				<key>Height</key>
+				<integer>600</integer>
+				<key>Identifier</key>
+				<string>ga.heyitsshuga.bettergfmotes.menu</string>
+				<key>Width</key>
+				<integer>400</integer>
+			</dict>
+		</array>
+		<key>Toolbar Items</key>
+		<array>
+			<dict>
+				<key>Identifier</key>
+				<string>ga.heyitsshuga.bettergfmotes.menuIcon</string>
+				<key>Image</key>
+				<string>iconNoCircle.png</string>
+				<key>Include By Default</key>
+				<true/>
+				<key>Label</key>
+				<string>Show Emotes</string>
+				<key>Palette Label</key>
+				<string>Show Emotes</string>
+				<key>Popover</key>
+				<string>ga.heyitsshuga.bettergfmotes.menu</string>
+				<key>Tool Tip</key>
+				<string>Shows list of emotes in BetterGFMotes</string>
+			</dict>
+		</array>
+	</dict>
+	<key>Content</key>
+	<dict>
+		<key>Stylesheets</key>
+		<array>
+			<string>emotes.css</string>
+			<string>modifiers.css</string>
+			<string>spoilers.css</string>
+			<string>fonts.css</string>
+		</array>
+	</dict>
+	<key>Description</key>
+	<string>Add more Gravity Falls-inspired emotes to Reddit and Voat!</string>
+	<key>DeveloperIdentifier</key>
+	<string>0000000000</string>
+	<key>ExtensionInfoDictionaryVersion</key>
+	<string>1.0</string>
+	<key>Permissions</key>
+	<dict>
+		<key>Website Access</key>
+		<dict>
+			<key>Include Secure Pages</key>
+			<true/>
+			<key>Level</key>
+			<string>All</string>
+		</dict>
+	</dict>
+	<key>Website</key>
+	<string>http://bettergfmotes.ga/</string>
+</dict>
+</plist>
